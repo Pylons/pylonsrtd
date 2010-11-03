@@ -48,6 +48,12 @@ standards we expect everyone to abide by.
 FAQ
 ---
 
+.. toctree::
+
+   faq/pylonsproject
+   faq/pyramid
+
+
 For Pylons users coming from Pylons 1, the change to a new core package might
 raise some questions regarding how to proceed, what it means for existing
 Pylons application, and more.
