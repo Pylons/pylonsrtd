@@ -35,6 +35,10 @@ As a reference, KARL, using the provided automation, a very large
 repoze.bfg application (> 70K lines of code), was ported in 30
 minutes.
 
+repoze.bfg 1.3 (made November 1, 2010) will be its last major release.  Minor
+updates will be made for critical bug fixes (and so there may be a 1.3.1,
+1.3.2, etc), but new feature development will take place in Pyramid.
+
 Why is Pyramid any different than the hundred other Python web frameworks?
 --------------------------------------------------------------------------
 
