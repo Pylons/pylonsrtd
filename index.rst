@@ -48,15 +48,18 @@ standards we expect everyone to abide by.
 FAQ
 ---
 
+For Pylons users coming from Pylons 1, the change to a new core package might
+raise some questions regarding how to proceed, what it means for existing
+Pylons application, and more.
+
+Likewise for users of repoze.bfg (the older name for Pyramid), some questions
+need to be answered.
+
 .. toctree::
 
    faq/pylonsproject
    faq/pyramid
 
-
-For Pylons users coming from Pylons 1, the change to a new core package might
-raise some questions regarding how to proceed, what it means for existing
-Pylons application, and more.
 
 .. _pyramid: /pyramid/dev/
 
