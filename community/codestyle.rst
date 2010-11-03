@@ -30,6 +30,36 @@ symlink in the pylons theme:
 This will then allow you to build the project utilizing the theme, and when
 updates are made to the theme the docs can be rebuilt easily.
 
+New Feature Code Requirements
+-----------------------------
+
+In order to add a feature to any Pylons Project package:
+
+- The feature must be documented in both the API and narrative
+  documentation (in ``docs/``).
+
+- The feature must work fully on the following CPython versions: 2.4,
+  2.5, 2.6, and 2.7 on both UNIX and Windows.
+
+- The feature must not cause installation or runtime failure on Jython or App
+  Engine. If it doesn't cause installation or runtime failure, but doesn't
+  actually *work* on these platforms, that caveat should be spelled out in the
+  documentation.
+
+- The feature must not depend on any particular persistence layer (filesystem,
+  SQL, etc).
+
+- The feature must not add unnecessary dependencies (where "unnecessary" is of
+  course subjective, but new dependencies should be discussed).
+
+The above requirements are relaxed for paster template dependencies. If a
+paster template has an install-time dependency on something that doesn't work
+on a particular platform, that caveat should be spelled out clearly in *its*
+documentation (within its ``docs/`` directory).
+
+To determine if a feature should be added to an existing package, or deserves
+a package of its own, feel free to talk to one of the developer teams.
+
 Documentation Coverage
 ----------------------
 
@@ -83,6 +113,12 @@ mandatory.
     1) Python standard library
     2) 3rd party packages
     3) Other modules from the current package
+
+* Wildcard Imports
+  
+  Do *not* import all the names from a package, import just the ones that
+  are needed. Single-line imports applies here as well, each name from the
+  other package should be imported on its own line.
 
 * No mutable objects as default arguments
   

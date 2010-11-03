@@ -17,3 +17,8 @@ Why isn't there an eye in the pyramid?
 
 None of us can afford to pay our Freemasonry dues, thus can't afford to
 license the *eye* to put in our pyramid.
+
+Did ``pyramid`` make those crop circles?
+----------------------------------------
+
+No, absolutely not. They were like that when we found them.
