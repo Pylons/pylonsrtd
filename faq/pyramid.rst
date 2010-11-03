@@ -83,8 +83,7 @@ strategies, url generation, request generation, and generic rendering
 Pyramid is also a great framework upon which to build *other*
 frameworks -- like a content management system -- because it provides
 a set of tools and patterns that make it possible to create extensible
-applications, such as a declarative configuration system.  See also:
-http://docs.pylonshq.compyramid/dev/narr/extending.html
+applications, such as a well-documented configuration system.
 
 What do you mean by "Fast"?
 ----------------------------
