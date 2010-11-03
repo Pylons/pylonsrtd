@@ -16,8 +16,8 @@ The web framework known as Pylons 1.x will still be maintained by The Pylons
 Project indefinitely.  Upon the first non-alpha release of Pyramid, however,
 it will go into "legacy" status.
 
-What is the difference Pyramid and repoze.bfg?
-----------------------------------------------
+What is the difference between Pyramid and repoze.bfg?
+------------------------------------------------------
 
 Pyramid *is* repoze.bfg, with:
 
@@ -31,9 +31,8 @@ application to Pyramid in a mostly-automated fashion.  See
 http://docs.pylonshq.com/pyramid/dev/tutorials/bfg/index.html for more
 information.
 
-As a reference, KARL, using the provided automation, a very large
-repoze.bfg application (> 70K lines of code), was ported in 30
-minutes.
+As a reference, KARL, a very large repoze.bfg application (> 70K lines of
+code), was ported in 30 minutes using the provided automation.
 
 repoze.bfg 1.3 (made November 1, 2010) will be its last major release.  Minor
 updates will be made for critical bug fixes (and so there may be a 1.3.1,

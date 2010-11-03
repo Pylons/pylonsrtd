@@ -1,5 +1,5 @@
-Pylons Project Frequently Asked Questions
-==========================================
+Pylons Project FAQ
+==================
 
 How does "The Pylons Project" relate to Pylons-the-web-framework?
 -----------------------------------------------------------------
