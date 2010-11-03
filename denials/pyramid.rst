@@ -3,22 +3,36 @@
 Pyramid Denials
 ===============
 
-This section hopes to alleviate concerns some users may have about using the 
-pyramid framework package.
+A number of parties have promulgated a certain amount of misinformation
+regarding the ``pyramid project``. We would like to officially put to rest
+some of the wild rumors and extravagant myths that have been circulating in
+board rooms and chat rooms around the world.
 
-Was ``pyramid`` made in a pyramid?
-----------------------------------
+* ``pyramid`` is not built by aliens.
 
-Absolutely not, such pyramid was definitely not black, nor did it shoot beams
-of light into the sky.
+* These aliens are not telepathic.  They do not look like human babies.
 
-Why isn't there an eye in the pyramid?
---------------------------------------
+* ``pyramid`` was not conceived of inside of a pyramid.
 
-None of us can afford to pay our Freemasonry dues, thus can't afford to
-license the *eye* to put in our pyramid.
+* The pyramid is not black.  It does not shoot a beam of light out of its top.
 
-Did ``pyramid`` make those crop circles?
-----------------------------------------
+* That beam of light is not a communications link to a more massive black
+  pyramid that is orbiting the earth.
 
-No, absolutely not. They were like that when we found them.
+* This space pyramid, as it were, does not use light bending technology to
+  make itself invisible.
+
+* The ``pyramid`` developers are not members of a shadow government.
+
+* Neither are they performing experiments on the dark side of the moon, where
+  they can work unobserved.
+
+* The ``pyramid`` developers do not worship an ancient crocodile god.
+
+* The ``pyramid`` developers do not have a giant, magic eye they use to spy on
+  their enemies.
+
+We hope that these denials are sufficient to put to rest some of the wild
+speculation that has been circulating about the ``pyramid`` project.  We're not
+sure where people get such wild ideas.  We hope that people will refrain from
+spreading such slanderous lies in the future.
