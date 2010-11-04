@@ -112,11 +112,6 @@ Friendly".  Everything we do, from the already-ready Pyramid to the various
 batteries we want to do later in batteries-included projects, should retain
 these qualities.
 
-Specifically, if you like meat-and-potatoes stuff like insanely great and
-up-to-date docs, a magnificently-tested web framework, and a slim execution
-footprint, you'll like Pyramid.  If you're also curious in fresh new ideas
-about extensibility, come hang out with us and throw your ideas into the mix.
-
 What do you mean by "Friendly"?
 -------------------------------
 

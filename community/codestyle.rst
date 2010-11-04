@@ -110,9 +110,12 @@ mandatory.
   
   Imports should be ordered by their origin. Names should be imported in
   this order:
-    1) Python standard library
-    2) 3rd party packages
-    3) Other modules from the current package
+
+  #. Python standard library
+
+  #. Third party packages
+
+  #. Other modules from the current package
 
 * Wildcard Imports
   
@@ -141,3 +144,12 @@ mandatory.
         if default is None:
             default = {}
 
+* Causing others to need to rely on import-time side effects is highly
+  discouraged.
+
+  Creating code that requires someone to import a module or package for the
+  singular purpose of causing some module-scoped code to be run is highly
+  discouraged.  It is only permissible to add such code to the core in paster
+  templates, where it might be required by some other framework
+  (e.g. SQLAlchemy "declarative base" classes must be imported to be
+  registered).
