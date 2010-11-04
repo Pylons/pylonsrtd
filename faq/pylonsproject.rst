@@ -40,19 +40,19 @@ out. Due to the use of `sub-classing
 , attempts to re-factor or re-design the existing ``pylons`` core wasn't
 working out.
 
-Over the course of several months, several large effects were made to re-write
-sections of the ``pylons`` core. Progress went fairly well, but after seeing
-that Pylons users would have to port their existing applications to use Pylons
-2, and seeing that repoze.bfg already looked extremely similar to the way
-Pylons 2 was shaping up, it seemed like a waste of development effort to
+Over the course of several months, several serious attempts were made to
+re-write sections of the ``pylons`` core. Progress went fairly well, but after
+seeing that Pylons users would have to port their existing applications to use
+Pylons 2, and seeing that repoze.bfg already looked extremely similar to the
+way Pylons 2 was shaping up, it seemed like a waste of development effort to
 recreate a large section of repoze.bfg.
 
 Given this, Ben Bangert started collaborating with Chris McDonough to bring
 some of the ``repoze.bfg`` routes functionality up to par with the features
 that the stand-alone `Routes <http://routes.groovie.org>`_ has so that Pylons
-users wouldn't lose features they depended on. After collaborating for awhile,
-the thought shifted from just building Pylons 2 on top of BFG, to a full
-merger.
+users wouldn't lose features they depended on and ensure that Pylons 1 users
+would have a migration path. After collaborating for awhile, the thought
+shifted from just building Pylons 2 on top of BFG, to a full merger.
 
 What does the Pylons Project mean for Pylons-the-web-framework?
 ---------------------------------------------------------------
