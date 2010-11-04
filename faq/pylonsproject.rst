@@ -37,8 +37,10 @@ Unfortunately, the Pylons 1.0 code-base has hit a point where further
 development on it to increase its flexibility and extendability didn't work
 out. Due to the use of `sub-classing
 <http://be.groovie.org/post/1347858988/why-extending-through-subclassing-a-frameworks>`_
-, attempts to re-factor or re-design the existing ``pylons`` core wasn't
-working out.
+, extensive and sometimes confusing use of Stacked Object Proxy globals, and
+configuration orgnaization issues, attempts to re-factor or re-design the
+existing ``pylons`` core wasn't working out. A re-write of most of this
+functionality would be required.
 
 Over the course of several months, several serious attempts were made to
 re-write sections of the ``pylons`` core. Progress went fairly well, but after
@@ -67,9 +69,9 @@ What does the Pylons Project mean for repoze.bfg?
 -------------------------------------------------
 
 The Pyramid codebase is derived almost entirely from an older web framework
-named repoze.bfg.  The BFG name is gone, and with the lovefest with Pylons,
-it's now indisputable that the-artist-formerly-known-as-BFG is gaining a
-wider audience.  BFG's community was primarily comprised of ex-Zope-users.
+named repoze.bfg. The BFG name is gone, and with the Pylons merger
+the-framework-formerly-known-as-BFG is gaining a wider audience. BFG's
+community was primarily comprised of ex-Zope-users.
 
 It's true that repoze.bfg drops its identity and becomes Pyramid, part of the
 Pylons Project.  But that's a good thing.  All of us need something with
@@ -108,9 +110,8 @@ Why is the Pylons Project different than other projects?
 --------------------------------------------------------
 
 Our mantra is: "Small, Documented, Tested, Extensible, Fast, Stable,
-Friendly".  Everything we do, from the already-ready Pyramid to the various
-batteries we want to do later in batteries-included projects, should retain
-these qualities.
+Friendly". Everything we do, from Pyramid to the various batteries we want to
+do later in batteries-included projects, should retain these qualities.
 
 Specifically, if you like meat-and-potatoes stuff like insanely great and
 up-to-date docs, a magnificently-tested web framework, and a slim execution
@@ -156,5 +157,5 @@ or join the #pylons IRC channel on freenode.net.
 Where is the code?
 ------------------
 
-https://github.com/organizations/Pylons
+https://github.com/Pylons
 
