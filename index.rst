@@ -9,8 +9,12 @@ Skip to:
 
 * `pyramid documentation </pyramid/dev/>`_
 * `pyramid_beaker </pyramid_beaker/dev/>`_, beaker session backend plug-in
+* `pyramid_formish </pyramid_formish/dev/>`_, formish integration
 * `pyramid_jinja2 </pyramid_jinja2/dev/>`_,
   `Jinja2 <http://jinja.pocoo.org/>`_ template renderer for pyramid_
+* `pyramid_chameleon_genshi </pyramid_chameleon_genshi/dev/>`_, template
+  renderer for `Chameleon's Genshi implementation 
+  <http://chameleon.repoze.org/docs/latest/genshi.html>`_.
 * `pyramid_xmlrpc </pyramid_xmlrpc/dev/>`_, XML-RPC add-on for pyramid_
 
 .. _pyramid: /pyramid/dev/
