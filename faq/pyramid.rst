@@ -16,6 +16,45 @@ The Pylons 1.x web framework will be maintained indefinitely by The Pylons
 Project.  Upon the first non-alpha release of Pyramid, however, it will be
 shifted into "legacy" status.
 
+.. _should_i_port:
+
+Should I port my Pylons 1.0 project to Pyramid?
+-----------------------------------------------
+
+As of Nov. 8, 2010, Pyramid has only had an alpha release. Pyramid's API's are
+relatively stable but the tools we've planned for migration are not completed
+yet.
+
+For larger Pylons apps, it is highly recommended that you wait for the
+migration tools and a full "Porting to Pyramid" guide made available. We've
+heard reports from several Pylons users that have ported smaller apps without
+too much difficulty.
+
+There are a few things you can do now to ease a later migration to Pyramid:
+
+1) Avoid the use of Pylons global objects except directly in action methods.
+   There is no other well-known way to access them, unless 
+   self._py_object.request has been implemented.
+   
+   Pylons global objects refer to 'request', 'session', 'cache', 'response', 
+   'tmpl_context', 'config', 'url' objects that are imported from ``pylons``.
+   
+   This also affects your ability to use your domain models outside of a
+   Pylons app (a command line script). Domain models shouldn't depend
+   on Pylons globals to work, nor should you pass Pylons globals into class
+   methods of your domain models. Pass variables that contain just the
+   data the model needs.
+
+2) Ensure all of your routes are explicit and named. All routes in Pyramid
+   must be named (uniquely), and there is no minimization available.
+
+If your Pylons app is already set up like this, then your domain models will
+most likely require no changes at all. Templates might need slight
+alterations and controllers will need some changes.
+
+There will be an announcement when we're ready for Pylons users with larger
+code-bases to try out the migration tools.
+
 What is the difference between Pyramid and repoze.bfg?
 ------------------------------------------------------
 
