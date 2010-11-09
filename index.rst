@@ -8,8 +8,8 @@ documentation for all of these projects.
 Skip to:
 
 * `Pyramid documentation </pyramid/dev/>`_ 
-   (`PDF <http://static.repoze.org/pyramid-1.0a2.pdf>`_) 
-   (`Epub <http://static.repoze.org/pyramid-1.0a2.epub>`_)
+  (`PDF <http://static.repoze.org/pyramid-1.0a2.pdf>`_) 
+  (`Epub <http://static.repoze.org/pyramid-1.0a2.epub>`_)
 * `pyramid_beaker </pyramid_beaker/dev/>`_, beaker session backend plug-in
 * `pyramid_formish </pyramid_formish/dev/>`_, formish integration
 * `pyramid_jinja2 </pyramid_jinja2/dev/>`_,
@@ -17,6 +17,9 @@ Skip to:
 * `pyramid_chameleon_genshi </pyramid_chameleon_genshi/dev/>`_, template
   renderer for `Chameleon's Genshi implementation 
   <http://chameleon.repoze.org/docs/latest/genshi.html>`_.
+* `pyramid_rpc </pyramid_rpc/dev/>`_, RPC service add-on for Pyramid_, supports
+  XML-RPC in a more extensible manner than `pyramid_xmlrpc` with planned
+  support for JSON-RPC and AMF.
 * `pyramid_xmlrpc </pyramid_xmlrpc/dev/>`_, XML-RPC add-on for Pyramid_
 
 .. _Pyramid: /pyramid/dev/
