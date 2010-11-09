@@ -1,23 +1,25 @@
 The Pylons Project Documentation
 ================================
 
-The Pylons Project maintains the pyramid_ web framework as well as additional
-packages intended for use with pyramid_. This is the home for the
+The Pylons Project maintains the Pyramid_ web framework as well as additional
+packages intended for use with Pyramid_. This is the home for the
 documentation for all of these projects.
 
 Skip to:
 
-* `pyramid documentation </pyramid/dev/>`_
+* `Pyramid documentation </pyramid/dev/>`_ 
+   (`PDF <http://static.repoze.org/pyramid-1.0a2.pdf>`_) 
+   (`Epub <http://static.repoze.org/pyramid-1.0a2.epub>`_)
 * `pyramid_beaker </pyramid_beaker/dev/>`_, beaker session backend plug-in
 * `pyramid_formish </pyramid_formish/dev/>`_, formish integration
 * `pyramid_jinja2 </pyramid_jinja2/dev/>`_,
-  `Jinja2 <http://jinja.pocoo.org/>`_ template renderer for pyramid_
+  `Jinja2 <http://jinja.pocoo.org/>`_ template renderer for Pyramid_
 * `pyramid_chameleon_genshi </pyramid_chameleon_genshi/dev/>`_, template
   renderer for `Chameleon's Genshi implementation 
   <http://chameleon.repoze.org/docs/latest/genshi.html>`_.
-* `pyramid_xmlrpc </pyramid_xmlrpc/dev/>`_, XML-RPC add-on for pyramid_
+* `pyramid_xmlrpc </pyramid_xmlrpc/dev/>`_, XML-RPC add-on for Pyramid_
 
-.. _pyramid: /pyramid/dev/
+.. _Pyramid: /pyramid/dev/
 
 Support
 -------
