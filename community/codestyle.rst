@@ -83,6 +83,11 @@ The codebase *must* have 100% test statement coverage after each commit. You
 can test coverage via ``python setup.py nosetests --with-coverage`` (requires
 the ``nose`` and ``coverage`` packages).
 
+Testing code in a consistent manner can be difficult, to help developers learn
+our style ("dogma") of testing we've made available a set of testing notes.
+
+:ref:`testing_guidelines`_
+
 Coding Style
 ------------
 

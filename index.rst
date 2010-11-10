@@ -82,6 +82,7 @@ by.
 
    community/conduct
    community/codestyle
+   community/testing
    community/featuresbugs
 
 Denials
