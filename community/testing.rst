@@ -16,8 +16,6 @@ which this document is based on.
    of the tips below can be reused in that context.
 
 
-
-
 Tips for Avoiding Bad Unit Tests
 --------------------------------
 
@@ -90,19 +88,30 @@ illustrative of the contract it tests, such test cases do not take the place
 of either API documentation or of narrative / "theory of operations"
 documentation. Still less are they intended for end-user documentation.
 
-Rule: Don't use doctests
-------------------------
+Rule: Avoid doctests
+--------------------
 
-- Doctests are hard to debug.
+Doctests seem to fulfill the best of both worlds, providing documentation
+*and* testing. In reality, tests written using doctest almost always serve as
+both poor tests and poor documentation.
+
+- Good tests often need to test obscure edge cases, and tests for obscure
+  edge cases don't make particularly good reading as documentation.
+
+- Doctests are harder to debug than "normal" unit tests.  It's easy to "pdb"
+  step through a normal unit test, it's much harder to do so for doctests.
 
 - Doctests expose too many implementation details of the interpreter (such as
-  the representation format of a class when printed).
-
-- Doctests often encourage bad testing practice (cutting an unverified
-  outcome of a function call and pasting it into a test suite).
+  the representation format of a class when printed).  Often doctests break
+  when interpreter versions change, and the ameliorations that allow doctests
+  to straddle representations between versions them cause the doctest to
+  become ugly and fragile.
 
 - Doctests have an execution model that makes it difficult to follow many of
   the rest of the rules in this document.
+
+- Doctests often encourage bad testing practice (cutting an unverified
+  outcome of a function call and pasting it into a test suite).
 
 Rule: Never import the module-under-test at test module scope.
 --------------------------------------------------------------
