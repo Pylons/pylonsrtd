@@ -1,13 +1,21 @@
 .. _testing_guidelines:
 
-Testing Guidelines
-==================
+Unit Testing Guidelines
+=======================
 
-The Pylons Project rather rigorously follows a testing dogma along the lines
-described by Tres Seaver in `Avoiding Temptation: Notes on using 'unittest'
-effectively
+The Pylons Project rather rigorously follows a unit testing dogma along the
+lines described by Tres Seaver in `Avoiding Temptation: Notes on using
+'unittest' effectively
 <http://palladion.com/home/tseaver/obzervationz/2008/unit_testing_notes-20080724>`_
 which this document is based on.
+
+.. note::
+
+   This document deals almost exclusively with *unit* tests.  We have no
+   particular dogmoa for integration tests or functional tests, although many
+   of the tips below can be reused in that context.
+
+
 
 
 Tips for Avoiding Bad Unit Tests
@@ -81,6 +89,20 @@ the developer specifies. While an instance this type of test case may be
 illustrative of the contract it tests, such test cases do not take the place
 of either API documentation or of narrative / "theory of operations"
 documentation. Still less are they intended for end-user documentation.
+
+Rule: Don't use doctests
+------------------------
+
+- Doctests are hard to debug.
+
+- Doctests expose too many implementation details of the interpreter (such as
+  the representation format of a class when printed).
+
+- Doctests often encourage bad testing practice (cutting an unverified
+  outcome of a function call and pasting it into a test suite).
+
+- Doctests have an execution model that makes it difficult to follow many of
+  the rest of the rules in this document.
 
 Rule: Never import the module-under-test at test module scope.
 --------------------------------------------------------------
