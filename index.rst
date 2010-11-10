@@ -81,6 +81,7 @@ by.
    :maxdepth: 2
 
    community/conduct
+   community/contributing
    community/codestyle
    community/testing
    community/featuresbugs
