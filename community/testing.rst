@@ -12,7 +12,7 @@ which this document is based on.
 .. note::
 
    This document deals almost exclusively with *unit* tests.  We have no
-   particular dogmoa for integration tests or functional tests, although many
+   particular dogma for integration tests or functional tests, although many
    of the tips below can be reused in that context.
 
 
