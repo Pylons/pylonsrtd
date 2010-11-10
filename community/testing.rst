@@ -4,7 +4,7 @@ Testing Guidelines
 ==================
 
 The Pylons Project rather rigorously follows a testing dogma along the lines
-describde by Tres Seaver in `Avoiding Temptation: Notes on using 'unittest'
+described by Tres Seaver in `Avoiding Temptation: Notes on using 'unittest'
 effectively
 <http://palladion.com/home/tseaver/obzervationz/2008/unit_testing_notes-20080724>`_
 which this document is based on.
