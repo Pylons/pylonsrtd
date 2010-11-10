@@ -4,10 +4,10 @@ Testing Guidelines
 ==================
 
 The Pylons Project rather rigorously follows a testing dogma along the lines
-describe by Tres Seaver in `Avoiding Temptation: Notes on using 'unittest'
+describde by Tres Seaver in `Avoiding Temptation: Notes on using 'unittest'
 effectively
 <http://palladion.com/home/tseaver/obzervationz/2008/unit_testing_notes-20080724>`_
-which this document borrows heavily if not entirely from.
+which this document is based on.
 
 
 Tips for Avoiding Bad Unit Tests
