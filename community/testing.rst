@@ -82,6 +82,13 @@ illustrative of the contract it tests, such test cases do not take the place
 of either API documentation or of narrative / "theory of operations"
 documentation. Still less are they intended for end-user documentation.
 
+Rule: Avoid Doctests
+--------------------
+
+Doctests seem to fulfill the best of both worlds, providing documentation *and*
+testing. In reality, they occasionally fulfill the testing requirement while
+failing to document anything in a manner a user would actually approve of.
+
 Rule: Never import the module-under-test at test module scope.
 --------------------------------------------------------------
 
