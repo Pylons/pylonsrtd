@@ -32,7 +32,7 @@ board rooms and chat rooms around the world.
 * The source code for ``pyramid`` is not over 5,000 years old.
 
 * The source code for ``pyramid`` was not discovered carved into stone tablets
-  in the Karnak temple complex.  It was not traslated to Python from
+  in the Karnak temple complex.  It was not translated to Python from
   hieroglyphs.
 
 * The ``pyramid`` developers do not have a giant, magic eye they use to spy on
