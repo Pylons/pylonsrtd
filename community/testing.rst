@@ -301,7 +301,7 @@ add a helper method to instantiate the context, and keep it as a local::
            return DummyContext(*args, **kw)
 
        def test_bar(self):
-           context = self.
+           context = self._makeContext()
            foo = self._makeOne(self.context)
 
 This practice allows different tests to create the mock context differently,
