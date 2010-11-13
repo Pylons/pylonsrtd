@@ -5,7 +5,7 @@ Unit Testing Guidelines
 
 The Pylons Project rather rigorously follows a unit testing dogma along the
 lines described by Tres Seaver in `Avoiding Temptation: Notes on using
-'unittest' effectively
+unittest effectively
 <http://palladion.com/home/tseaver/obzervationz/2008/unit_testing_notes-20080724>`_
 which this document is based on.
 
@@ -159,7 +159,7 @@ Unit tests need to be runnable even in an enviornment which is missing some
 required features: in that case, one or more of the testcase methods (TCMs)
 will fail. Defer imports of any needed library modules as late as possible.
 
-For instance, this example generates no test failures at all if the 'qux'
+For instance, this example generates no test failures at all if the ``qux``
 module is not importable::
 
     # test the foo module
@@ -275,13 +275,13 @@ prefer to use the TCM name to indicate its purpose::
        def test_getBar_wo_baz(self):
            #...
 
-Guideline: Share setup via helper methods, not via attributes of 'self'.
-------------------------------------------------------------------------
+Guideline: Share setup via helper methods, not via attributes of ``self``.
+--------------------------------------------------------------------------
 
-Doing unneeded work in the 'setUp' method of a testcase class sharply
+Doing unneeded work in the ``setUp`` method of a testcase class sharply
 increases coupling between TCMs, which is a Bad Thing. For instance, suppose
 the class-under-test (CUT) takes a context as an argument to its constructor.
-Rather than instantiating the context in 'setUp'::
+Rather than instantiating the context in ``setUp``::
 
     class FooClassTests(unittest.TestCase):
 
@@ -330,7 +330,7 @@ after each test!
 It may be acceptable to add hook methods to the application, purely to allow
 for simplicity of testing. For instance, code which normally sets datetime
 attributes to "now" could be tweaked to use a module-scope function, rather
-than calling 'datetime.now()' directly. Tests can then replace that function
+than calling ``datetime.now()`` directly. Tests can then replace that function
 with one which returns a known value (as long as they put back the original
 version after they run).
 
