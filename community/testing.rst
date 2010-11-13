@@ -302,7 +302,7 @@ add a helper method to instantiate the context, and keep it as a local::
 
        def test_bar(self):
            context = self._makeContext()
-           foo = self._makeOne(self.context)
+           foo = self._makeOne(context)
 
 This practice allows different tests to create the mock context differently,
 avoiding coupling. It also makes the tests run faster, as the tests which
