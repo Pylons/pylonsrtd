@@ -86,7 +86,7 @@ the ``nose`` and ``coverage`` packages).
 Testing code in a consistent manner can be difficult, to help developers learn
 our style ("dogma") of testing we've made available a set of testing notes.
 
-:ref:`testing_guidelines`_
+:ref:`testing_guidelines`
 
 Coding Style
 ------------
