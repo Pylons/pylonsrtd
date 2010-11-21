@@ -155,7 +155,7 @@ prefer::
 Guideline: Minimize module-scope dependencies.
 ----------------------------------------------
 
-Unit tests need to be runnable even in an enviornment which is missing some
+Unit tests need to be runnable even in an environment which is missing some
 required features: in that case, one or more of the testcase methods (TCMs)
 will fail. Defer imports of any needed library modules as late as possible.
 
@@ -324,7 +324,7 @@ Guideline: Use hooks and registries judiciously.
 ------------------------------------------------
 
 If the application already allows registering plugins or components, take
-advantage of the fact to insert your mock objects. Don't forget to cleanup
+advantage of the fact to insert your mock objects. Don't forget to clean up
 after each test!
 
 It may be acceptable to add hook methods to the application, purely to allow
@@ -337,12 +337,12 @@ version after they run).
 Guideline: Use mock objects to clarify dependent contracts
 ----------------------------------------------------------
 
-Keeping the contracts on which the AUT dependes as simple as possible makes
+Keeping the contracts on which the AUT depends as simple as possible makes
 the AUT easier to write, and more resilient to changes. Writing mock objects
 which supply only the simplest possible implementation of such contracts keeps
 the AUT from acquiring "dependency creep."
 
-For example, in a relational application, the the SQL queries used by the
+For example, in a relational application, the SQL queries used by the
 application can be mocked up as a dummy implementation which takes keyword
 parameters and returns lists of dictionaries::
 
@@ -378,7 +378,7 @@ for easy testing of how it is used by the AUT::
            self.failUnless('NAME1' in names)
            self.failUnless('NAME2' in names)
 
-           self.assertEqual(query.called_with, {'bar', 'Dog and Whistle'})
+           self.assertEqual(query.called_with, [{'bar': 'Dog and Whistle'}])
 
 Rule: Don't share text fixtures between test modules.
 -----------------------------------------------------
