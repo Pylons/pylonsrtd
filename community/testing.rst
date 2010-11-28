@@ -124,6 +124,7 @@ glance than normal test failures.
 For example, rather than the following:
 
   .. code-block:: python
+    :linenos:
 
     # test the foo module
     import unittest
@@ -139,6 +140,7 @@ For example, rather than the following:
 prefer:
 
   .. code-block:: python
+    :linenos:
     
     # test the foo module
     import unittest
@@ -168,6 +170,7 @@ For instance, this example generates no test failures at all if the ``qux``
 module is not importable:
 
   .. code-block:: python
+    :linenos:
 
     # test the foo module
     import unittest
@@ -189,6 +192,7 @@ while this example raises failures for each TCM which uses the missing
 module:
 
   .. code-block:: python
+    :linenos:
 
     # test the foo module
     import unittest
@@ -219,6 +223,7 @@ exercise one set of preconditions for one method or function. For instance,
 the following test case tries to exercise far too much:
 
   .. code-block:: python
+    :linenos:
 
     def test_bound_used_container(self):
         from AccessControl.SecurityManagement import newSecurityManager
@@ -275,6 +280,7 @@ module to figure out what was being tested.
 Rather than adding a comment:
 
   .. code-block:: python
+    :linenos:
 
     class FooClassTests(unittest.TestCase):
 
@@ -285,6 +291,7 @@ Rather than adding a comment:
 prefer to use the TCM name to indicate its purpose:
 
   .. code-block:: python
+    :linenos:
 
     class FooClassTests(unittest.TestCase):
 
@@ -300,6 +307,7 @@ the class-under-test (CUT) takes a context as an argument to its constructor.
 Rather than instantiating the context in ``setUp``:
 
   .. code-block:: python
+    :linenos:
 
     class FooClassTests(unittest.TestCase):
 
@@ -314,6 +322,7 @@ Rather than instantiating the context in ``setUp``:
 add a helper method to instantiate the context, and keep it as a local:
 
   .. code-block:: python
+    :linenos:
 
     class FooClassTests(unittest.TestCase):
 
@@ -334,6 +343,7 @@ Guideline: Make fixtures as simple as possible.
 When writing a mock object, start off with an empty class, e.g.:
 
   .. code-block:: python
+    :linenos:
     
     class DummyContext:
         pass
@@ -369,6 +379,7 @@ application can be mocked up as a dummy implementation which takes keyword
 parameters and returns lists of dictionaries:
 
   .. code-block:: python
+    :linenos:
 
     class DummySQL:
 
@@ -386,6 +397,7 @@ object should return a list of mappings, one per row), the mock object allows
 for easy testing of how it is used by the AUT:
 
   .. code-block:: python
+    :linenos:
 
     class FooTest(unittest.TestCase):
 

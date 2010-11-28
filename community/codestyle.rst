@@ -102,6 +102,7 @@ mandatory.
   Do this:
 
   .. code-block:: python
+    :linenos:
     
     import os
     import sys
@@ -109,6 +110,7 @@ mandatory.
   Do **not** do this:
 
   .. code-block:: python
+    :linenos:
   
     import os, sys
   
@@ -140,6 +142,7 @@ mandatory.
   Do **not** do this:
 
   .. code-block:: python
+    :linenos:
     
     def somefunc(default={}):
         if default.get(...):
@@ -148,11 +151,13 @@ mandatory.
   Either of these is fine:
 
   .. code-block:: python
+    :linenos:
     
     def somefunc(default=None):
         default = default or {}
 
   .. code-block:: python
+    :linenos:
     
     def somefunc(default=None):
         if default is None:
