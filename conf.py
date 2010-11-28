@@ -87,8 +87,10 @@ today_fmt = '%B %d, %Y'
 #show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+#pygments_style = 'sphinx'
 
+# The default language to highlight source code in.
+highlight_language = 'guess'
 
 # Options for HTML output
 # -----------------------
@@ -163,7 +165,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'atemplatedoc'
+htmlhelp_basename = 'pylons'
 
 
 # Options for LaTeX output

@@ -99,12 +99,16 @@ mandatory.
 
 * Single-line imports
   
-  Do this::
+  Do this:
+
+  .. code-block:: python
     
     import os
     import sys
   
-  Do **not** do this::
+  Do **not** do this:
+
+  .. code-block:: python
   
     import os, sys
   
@@ -133,18 +137,23 @@ mandatory.
   Remember that since Python only parses the default argument for a
   function/method just once, they cannot be safely used as default arguments.
   
-  Do **not** do this::
+  Do **not** do this:
+
+  .. code-block:: python
     
     def somefunc(default={}):
         if default.get(...):
+            ...
 
-  Either of these is fine::
+  Either of these is fine:
+
+  .. code-block:: python
     
     def somefunc(default=None):
         default = default or {}
 
   .. code-block:: python
-  
+    
     def somefunc(default=None):
         if default is None:
             default = {}

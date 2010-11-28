@@ -121,7 +121,9 @@ cases to fail: they should never prevent those tests from being run. Depending
 on the testrunner, import problems may be much harder to distinguish at a
 glance than normal test failures.
 
-For example, rather than the following::
+For example, rather than the following:
+
+  .. code-block:: python
 
     # test the foo module
     import unittest
@@ -134,7 +136,9 @@ For example, rather than the following::
             foo = FooClass('Bar')
             self.assertEqual(foo.bar(), 'Bar')
 
-prefer::
+prefer:
+
+  .. code-block:: python
     
     # test the foo module
     import unittest
@@ -152,6 +156,7 @@ prefer::
             foo = self._makeOne('Bar')
             self.assertEqual(foo.bar(), 'Bar')
 
+
 Guideline: Minimize module-scope dependencies.
 ----------------------------------------------
 
@@ -160,7 +165,9 @@ required features: in that case, one or more of the testcase methods (TCMs)
 will fail. Defer imports of any needed library modules as late as possible.
 
 For instance, this example generates no test failures at all if the ``qux``
-module is not importable::
+module is not importable:
+
+  .. code-block:: python
 
     # test the foo module
     import unittest
@@ -179,7 +186,9 @@ module is not importable::
             foo = self._makeOne(qux.Qux('Bar'))
 
 while this example raises failures for each TCM which uses the missing
-module::
+module:
+
+  .. code-block:: python
 
     # test the foo module
     import unittest
@@ -207,7 +216,9 @@ Rule: Make each test case method test Just One Thing.
 
 Avoid the temptation to write fewer, bigger tests. Ideally, each TCM will
 exercise one set of preconditions for one method or function. For instance,
-the following test case tries to exercise far too much::
+the following test case tries to exercise far too much:
+
+  .. code-block:: python
 
     def test_bound_used_container(self):
         from AccessControl.SecurityManagement import newSecurityManager
@@ -261,19 +272,24 @@ The name of the test should be the first, most useful clue when looking at a
 failure report: don't make the reader (yourself, most likely) grep the test
 module to figure out what was being tested.
 
-Rather than adding a comment::
+Rather than adding a comment:
+
+  .. code-block:: python
 
     class FooClassTests(unittest.TestCase):
 
        def test_some_random_blather(self):
            # test the 'bar' method in the case where 'baz' is not set.
+           ...
 
-prefer to use the TCM name to indicate its purpose::
+prefer to use the TCM name to indicate its purpose:
+
+  .. code-block:: python
 
     class FooClassTests(unittest.TestCase):
 
        def test_getBar_wo_baz(self):
-           #...
+           ...
 
 Guideline: Share setup via helper methods, not via attributes of ``self``.
 --------------------------------------------------------------------------
@@ -281,19 +297,23 @@ Guideline: Share setup via helper methods, not via attributes of ``self``.
 Doing unneeded work in the ``setUp`` method of a testcase class sharply
 increases coupling between TCMs, which is a Bad Thing. For instance, suppose
 the class-under-test (CUT) takes a context as an argument to its constructor.
-Rather than instantiating the context in ``setUp``::
+Rather than instantiating the context in ``setUp``:
+
+  .. code-block:: python
 
     class FooClassTests(unittest.TestCase):
 
        def setUp(self):
            self.context = DummyContext()
 
-       # ...
+      # ...
 
        def test_bar(self):
            foo = self._makeOne(self.context)
 
-add a helper method to instantiate the context, and keep it as a local::
+add a helper method to instantiate the context, and keep it as a local:
+
+  .. code-block:: python
 
     class FooClassTests(unittest.TestCase):
 
@@ -311,7 +331,9 @@ don't need the context don't pay for creating it.
 Guideline: Make fixtures as simple as possible.
 -----------------------------------------------
 
-When writing a mock object, start off with an empty class, e.g.::
+When writing a mock object, start off with an empty class, e.g.:
+
+  .. code-block:: python
     
     class DummyContext:
         pass
@@ -344,7 +366,9 @@ the AUT from acquiring "dependency creep."
 
 For example, in a relational application, the SQL queries used by the
 application can be mocked up as a dummy implementation which takes keyword
-parameters and returns lists of dictionaries::
+parameters and returns lists of dictionaries:
+
+  .. code-block:: python
 
     class DummySQL:
 
@@ -359,7 +383,9 @@ parameters and returns lists of dictionaries::
 
 In addition to keeping the dependent contract simple (in this case, the SQL
 object should return a list of mappings, one per row), the mock object allows
-for easy testing of how it is used by the AUT::
+for easy testing of how it is used by the AUT:
+
+  .. code-block:: python
 
     class FooTest(unittest.TestCase):
 
