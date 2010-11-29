@@ -90,7 +90,7 @@ today_fmt = '%B %d, %Y'
 #pygments_style = 'sphinx'
 
 # The default language to highlight source code in.
-highlight_language = 'guess'
+#highlight_language = 'guess'
 
 # Options for HTML output
 # -----------------------
@@ -111,16 +111,16 @@ html_title = 'The Pylons Project Documentation v%s' % release
 
 # A shorter title for the navigation bar.  Default is the same as
 # html_title.
-html_short_title = 'Home'
+#html_short_title = 'Home'
 
 # The name of an image file (within the static path) to place at the top of
 # the sidebar.
-html_logo = '_static/pylons.png'
+#html_logo = '_static/pylons.png'
 
 # The name of an image file (within the static path) to use as favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or
 # 32x32 pixels large.
-html_favicon = '_static/pylons.ico'
+#html_favicon = '_static/pylons.ico'
 
 # Add any paths that contain custom static files (such as style sheets)
 # here, relative to this directory. They are copied after the builtin
@@ -187,7 +187,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the
 # top of the title page.
-latex_logo = '_static/pylons-latex.png'
+#latex_logo = '_static/pylons-latex.png'
 
 # For "manual" documents, if this is true, then toplevel headings are
 # parts, not chapters.
