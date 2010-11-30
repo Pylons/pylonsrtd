@@ -86,6 +86,18 @@ by.
    community/testing
    community/featuresbugs
 
+Promote
+-------
+
+If you want to promote The Pylons Project and it's related technologies or your
+own work made with our tools.
+
+.. toctree::
+    :maxdepth: 2
+
+    promote/logos
+    promote/badges
+
 Denials
 -------
 
@@ -95,3 +107,4 @@ Don't worry, none of these are actually true. We swear!
     :maxdepth: 2
     
     denials/pyramid
+
