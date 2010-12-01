@@ -27,8 +27,19 @@ symlink in the pylons theme:
     
     ln -s /path/to/pylons_sphinx_theme _themes
 
+Then in your conf.py file add the _themes directory to your python path,
+assign it to html_theme_path and select you html_theme: 
+
+.. code-block:: python
+    :linenos:
+    
+    sys.path.append(os.path.abspath('_themes'))
+    html_theme_path = ['_themes']
+    html_theme = 'pylons'
+
 This will then allow you to build the project utilizing the theme, and when
-updates are made to the theme the docs can be rebuilt easily.
+updates are made to the theme the docs can be rebuilt easily but pulling
+changes from the git repository.
 
 New Feature Code Requirements
 -----------------------------
