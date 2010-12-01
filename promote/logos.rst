@@ -1,3 +1,5 @@
+.. _pylons_project_logos:
+
 Official Pylons Project Logos
 =============================
 

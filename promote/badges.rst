@@ -1,3 +1,5 @@
+.. _pyramid_badges:
+
 Pyramid Badges
 ==============
 
@@ -25,18 +27,6 @@ Pyramid badges
 .. image:: badges/pyramid_105x28_black.png
 
 105x28 black
-
-.. image:: badges/pyramid_148x45.png
-
-148x45 transparent
-
-.. image:: badges/pyramid_148x45_white.png
-
-148x45 white
-
-.. image:: badges/pyramid_148x45_black.png
-
-148x45 black
 
 .. image:: badges/pyramid_148x45.png
 
