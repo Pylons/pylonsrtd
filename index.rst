@@ -100,7 +100,7 @@ Episode 1: Q&A with Ben and Chris
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 `MP3 (length: 1:26:08, ~ 43MB)
-<http://static.repoze.org/casts/pylonspodcast-1-2010-12-03>`_
+<http://static.repoze.org/casts/pylonspodcast-1-2010-12-03.mp3>`_
 
 In our inaugural episode, Chris McDonough and Ben Bangert talk about `Pyramid
 <http://docs.pylonshq.com/pyramid/dev/index.html>`_, `pyramid_deform
