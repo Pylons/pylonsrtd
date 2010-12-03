@@ -97,6 +97,7 @@ own work made with our tools.
 
     promote/logos
     promote/badges
+    promote/desktops
 
 Denials
 -------
