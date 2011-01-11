@@ -8,8 +8,8 @@ documentation for all of these projects.
 Skip to:
 
 * `Pyramid documentation </projects/pyramid/dev/>`_ 
-  (`PDF <http://static.repoze.org/pyramid-1.0a8.pdf>`_) 
-  (`Epub <http://static.repoze.org/pyramid-1.0a8.epub>`_)
+  (`PDF <http://static.repoze.org/pyramid-1.0a9.pdf>`_) 
+  (`Epub <http://static.repoze.org/pyramid-1.0a9.epub>`_)
 * `pyramid_beaker </projects/pyramid_beaker/dev/>`_, beaker session backend plug-in
 * `pyramid_formish </projects/pyramid_formish/dev/>`_, formish integration
 * `pyramid_jinja2 </projects/pyramid_jinja2/dev/>`_,
