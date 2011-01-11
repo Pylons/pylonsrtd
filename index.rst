@@ -7,20 +7,20 @@ documentation for all of these projects.
 
 Skip to:
 
-* `Pyramid documentation </pyramid/dev/>`_ 
+* `Pyramid documentation </projects/pyramid/dev/>`_ 
   (`PDF <http://static.repoze.org/pyramid-1.0a8.pdf>`_) 
   (`Epub <http://static.repoze.org/pyramid-1.0a8.epub>`_)
-* `pyramid_beaker </pyramid_beaker/dev/>`_, beaker session backend plug-in
-* `pyramid_formish </pyramid_formish/dev/>`_, formish integration
-* `pyramid_jinja2 </pyramid_jinja2/dev/>`_,
+* `pyramid_beaker </projects/pyramid_beaker/dev/>`_, beaker session backend plug-in
+* `pyramid_formish </projects/pyramid_formish/dev/>`_, formish integration
+* `pyramid_jinja2 </projects/pyramid_jinja2/dev/>`_,
   `Jinja2 <http://jinja.pocoo.org/>`_ template renderer for Pyramid
-* `pyramid_chameleon_genshi </pyramid_chameleon_genshi/dev/>`_, template
+* `pyramid_chameleon_genshi </projects/pyramid_chameleon_genshi/dev/>`_, template
   renderer for `Chameleon's Genshi implementation 
   <http://chameleon.repoze.org/docs/latest/genshi.html>`_.
-* `pyramid_rpc </pyramid_rpc/dev/>`_, RPC service add-on for Pyramid, supports
+* `pyramid_rpc </projects/pyramid_rpc/dev/>`_, RPC service add-on for Pyramid, supports
   XML-RPC in a more extensible manner than `pyramid_xmlrpc` with planned
   support for JSON-RPC and AMF.
-* `pyramid_xmlrpc </pyramid_xmlrpc/dev/>`_, XML-RPC add-on for Pyramid
+* `pyramid_xmlrpc </projects/pyramid_xmlrpc/dev/>`_, XML-RPC add-on for Pyramid
 
 Support
 -------
