@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General substitutions.
 project = 'pylonshq'
-copyright = '2010, Agendaless Consulting <chrism@plope.com>'
+copyright = '2011, Agendaless Consulting <chrism@plope.com>'
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
