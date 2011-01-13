@@ -5,8 +5,8 @@ Official Pylons Project Logos
 
 The Pylons Project logos are licensed as `Creative Commons
 Attribution-NonCommercial <http://creativecommons.org/licenses/by-nc/3.0/>`_;
-please link to http://pylonshq.com/ as the attribution when using them as an
-hyperlink or The Pylons Project when using as text.
+please link to http://pylonsproject.org/ as the attribution when using them
+as an hyperlink or The Pylons Project when using as text.
 
 
 Pylons logo

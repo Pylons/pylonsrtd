@@ -74,8 +74,8 @@ has their own:
 * `pyramid_beaker issue tracker <https://github.com/Pylons/pyramid_beaker/issues>`_
 * `pyramid_xmlrpc issue tracker <https://github.com/Pylons/pyramid_xmlrpc/issues>`_
 * `pyramid_jinja2 issue tracker <https://github.com/Pylons/pyramid_jinja2/issues>`_
-* `PylonsHQ issue tracker <https://github.com/Pylons/pylonshq/issues>`_ (All
-  bugs with the pylonshq.com website should be reported here.)
+* `Pylons Project issue tracker <https://github.com/Pylons/pylonshq/issues>`_ (All
+  bugs with the pylonshq.com/pylonsproject.org website should be reported here.)
 
 Working on Code
 ---------------

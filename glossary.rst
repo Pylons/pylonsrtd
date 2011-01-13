@@ -6,9 +6,10 @@ Glossary
 .. glossary::
    :sorted:
 
-    PylonsHQ
+    Pylons Project
         The main Pylons Project website
 
     Pyramid
-        A `web framework <http://pylonshq.com/pyramid>`_ under the Pylons
-        Project.
+        A `web framework 
+        <http://docs.pylonsproject.org/projects/pyramid/dev/>`_ under 
+        the Pylons Project.

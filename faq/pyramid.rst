@@ -66,8 +66,8 @@ Pyramid *is* repoze.bfg, with:
 
 Changes do need to be made to port existing repoze.bfg applications to
 Pyramid. It is possible to automate most of the porting process. See
-http://docs.pylonshq.com/pyramid/dev/tutorials/bfg/index.html for more
-information.
+http://docs.pylonsproject.org/projects/pyramid/dev/tutorials/bfg/index.html 
+for more information.
 
 As a reference, KARL, a very large repoze.bfg application (> 70K lines of
 code), was ported in 30 minutes using the provided automation.
@@ -94,7 +94,7 @@ What do you mean by "Small"?
 
 Pyramid has roughly 5 thousand lines of code that has the potential to be
 executed at runtime. For more detail, see
-http://docs.pylonshq.com/pyramid/dev/designdefense.html#pyramid-is-too-big.
+http://docs.pylonsproject.org/projects/pyramid/dev/designdefense.html#pyramid-is-too-big.
 
 What do you mean by "Documented"?
 ---------------------------------

@@ -101,7 +101,7 @@ Episode 1: Q&A with Ben and Chris
 <http://static.repoze.org/casts/pylonspodcast-1-2010-12-03.mp3>`_
 
 In our inaugural episode, Chris McDonough and Ben Bangert talk about `Pyramid
-<http://docs.pylonshq.com/pyramid/dev/index.html>`_, `pyramid_deform
+<http://docs.pylonsproject.org/projects/pyramid/dev/index.html>`_, `pyramid_deform
 <https://github.com/Pylons/pyramid_deform>`_, `zc.buildout (aka "buildout")
 <http://www.buildout.org/>`_, `Fabric <http://docs.fabfile.org/>`_, `WebError
 <http://turbogears.org/2.0/docs/modules/thirdparty/weberror.html>`_,
