@@ -8,8 +8,8 @@ documentation for all of these projects.
 Skip to:
 
 * `Pyramid documentation </projects/pyramid/dev/>`_ 
-  (`PDF <http://static.repoze.org/pyramid-1.0a9.pdf>`_) 
-  (`Epub <http://static.repoze.org/pyramid-1.0a9.epub>`_)
+  (`PDF <http://static.pylonsproject.org/pyramid-1.0a10.pdf>`_) 
+  (`Epub <http://static.pylonsproject.org/pyramid-1.0a10.epub>`_)
 
 * `pyramid_beaker </projects/pyramid_beaker/dev/>`_, beaker session backend
   plug-in
