@@ -10,17 +10,41 @@ Skip to:
 * `Pyramid documentation </projects/pyramid/dev/>`_ 
   (`PDF <http://static.repoze.org/pyramid-1.0a9.pdf>`_) 
   (`Epub <http://static.repoze.org/pyramid-1.0a9.epub>`_)
-* `pyramid_beaker </projects/pyramid_beaker/dev/>`_, beaker session backend plug-in
-* `pyramid_formish </projects/pyramid_formish/dev/>`_, formish integration
-* `pyramid_jinja2 </projects/pyramid_jinja2/dev/>`_,
-  `Jinja2 <http://jinja.pocoo.org/>`_ template renderer for Pyramid
-* `pyramid_chameleon_genshi </projects/pyramid_chameleon_genshi/dev/>`_, template
-  renderer for `Chameleon's Genshi implementation 
+
+* `pyramid_beaker </projects/pyramid_beaker/dev/>`_, beaker session backend
+  plug-in
+
+* `pyramid_jinja2 </projects/pyramid_jinja2/dev/>`_, `Jinja2
+  <http://jinja.pocoo.org/>`_ template renderer for Pyramid
+
+* `pyramid_chameleon_genshi </projects/pyramid_chameleon_genshi/dev/>`_,
+  template renderer for `Chameleon's Genshi implementation
   <http://chameleon.repoze.org/docs/latest/genshi.html>`_.
-* `pyramid_rpc </projects/pyramid_rpc/dev/>`_, RPC service add-on for Pyramid, supports
-  XML-RPC in a more extensible manner than `pyramid_xmlrpc` with planned
-  support for JSON-RPC and AMF.
-* `pyramid_xmlrpc </projects/pyramid_xmlrpc/dev/>`_, XML-RPC add-on for Pyramid
+
+* `pyramid_rpc </projects/pyramid_rpc/dev/>`_, RPC service add-on for
+  Pyramid, supports XML-RPC in a more extensible manner than `pyramid_xmlrpc`
+  with planned support for JSON-RPC and AMF.
+
+* `pyramid_xmlrpc </projects/pyramid_xmlrpc/dev/>`_, XML-RPC add-on for
+  Pyramid
+
+* `pyramid_handlers </projects/pyramid_handlers/dev/>`_, analogue of
+  Pylons-style "controllers" for Pyramid.
+
+* `pyramid_zcml </projects/pyramid_zcml/dev/>`_, Zope Configuration Markup
+  Language configuration support for Pyramid.
+
+Resources (In-Progress)
+-----------------------
+
+`The Pyramid Cookbook
+<http://docs.pylonsproject.org/projects/pyramid_cookbook/dev/>`_ presents
+topical, practical usages of Pyramid.  Unfinished.
+
+`Pyramid Tutorials
+<http://docs.pylonsproject.org/projects/pyramid_tutorials/dev/>`_ presents
+tutorials dealing with Pyramid integrations with other technologies.  Very
+unfinished.
 
 Support
 -------
