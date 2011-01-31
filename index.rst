@@ -7,7 +7,11 @@ documentation for all of these projects.
 
 Skip to:
 
-* `Pyramid documentation </projects/pyramid/dev/>`_ 
+* `Pyramid documentation 1.0 </projects/pyramid/1.0/>`_ 
+  (`PDF <http://static.pylonsproject.org/pyramid-1.0.pdf>`_) 
+  (`Epub <http://static.pylonsproject.org/pyramid-1.0.epub>`_)
+
+* `Pyramid documentation development </projects/pyramid/dev/>`_ 
   (`PDF <http://static.pylonsproject.org/pyramid-1.0dev.pdf>`_) 
   (`Epub <http://static.pylonsproject.org/pyramid-1.0dev.epub>`_)
 
