@@ -13,24 +13,28 @@ code, the fallback application will continue to handle yet-to-be ported
 functionality.
 
 The Pylons 1.x web framework will be maintained indefinitely by The Pylons
-Project.  Upon the first non-alpha release of Pyramid, however, it will be
-shifted into "legacy" status.
+Project.  There may be a Pylons 1.1 release aimed at easing a transition to
+Pyramid in the near future.  However, as of the release of Pyramid 1.0 on
+January 31, 2011, the Pylons web framework has effectively been shifted into
+"legacy" status.
 
 .. _should_i_port:
 
 Should I port my Pylons 1.0 project to Pyramid?
 -----------------------------------------------
 
-As of Nov. 8, 2010, Pyramid has only had an alpha release. Pyramid's API's are
-relatively stable but the tools we've planned for migration are not completed
-yet.
+Pyramid 1.0 was released on Jan 31, 2011. 
 
-For larger Pylons apps, it is highly recommended that you wait for the
-migration tools and a full "Porting to Pyramid" guide made available. We've
-heard reports from several Pylons users that have ported smaller apps without
-too much difficulty.
+A draft release of a Pylons-to-Pyramid migration guide is available at
+https://bytebucket.org/sluggo/pyramid-docs/wiki/html/migration.html .
 
-There are a few things you can do now to ease a later migration to Pyramid:
+We've heard reports from several Pylons users that they have ported smaller
+apps without too much difficulty.  For larger Pylons apps, you may want to
+wait for the migration guide document to reach non-draft status before
+attempting a port.
+
+However, there are a few things you can do now to ease a later migration to
+Pyramid:
 
 1) Avoid the use of Pylons global objects except directly in action methods.
    There is no other well-known way to access them, unless 
@@ -51,9 +55,6 @@ There are a few things you can do now to ease a later migration to Pyramid:
 If your Pylons app is already set up like this, then your domain models will
 most likely require no changes at all. Templates might need slight
 alterations and controllers will need some changes.
-
-There will be an announcement when we're ready for Pylons users with larger
-code-bases to try out the migration tools.
 
 What is the difference between Pyramid and repoze.bfg?
 ------------------------------------------------------
