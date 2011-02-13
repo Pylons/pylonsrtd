@@ -5,7 +5,8 @@ The Pylons Project maintains the Pyramid web framework as well as additional
 packages intended for use with Pyramid. This is the home for the
 documentation for all of these projects.
 
-Skip to:
+Pyramid
+-------
 
 * `Pyramid documentation 1.0 </projects/pyramid/1.0/>`_ 
   (`PDF <http://static.pylonsproject.org/pyramid-1.0.pdf>`_) 
@@ -15,8 +16,21 @@ Skip to:
   (`PDF <http://static.pylonsproject.org/pyramid-1.0dev.pdf>`_) 
   (`Epub <http://static.pylonsproject.org/pyramid-1.0dev.epub>`_)
 
+Pyramid Add-Ons
+---------------
+
+Pyramid supports extensibility through add-ons.  The following lists of
+add-ons are officially endorsed by the Pylons Project.
+
+Pyramid Add-Ons Hosted Within Pylons Github Organization
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following add-ons have source code hosted within the collection of
+repositories related to the `Pylons Project Github organization
+<https://github.com/organizations/Pylons>`_.
+
 * `pyramid_beaker </projects/pyramid_beaker/dev/>`_, beaker session backend
-  plug-in
+  plug-in.
 
 * `pyramid_jinja2 </projects/pyramid_jinja2/dev/>`_, `Jinja2
   <http://jinja.pocoo.org/>`_ template renderer for Pyramid
@@ -38,8 +52,18 @@ Skip to:
 * `pyramid_zcml </projects/pyramid_zcml/dev/>`_, Zope Configuration Markup
   Language configuration support for Pyramid.
 
-Resources (In-Progress)
------------------------
+Pyramid Add-Ons Hosted Outside Pylons Github Organization
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following packages are hosted in locations outside of the Pylons Project
+Github organization.
+
+* `pyramid_mailer </thirdparty/pyramid_mailer/dev/>`_, a package for the
+  Pyramid framework to take the pain out of sending emails.  Source:
+  https://bitbucket.org/danjac/pyramid_mailer
+
+Pyramid Resources (In-Progress)
+-------------------------------
 
 `The Pyramid Cookbook
 <http://docs.pylonsproject.org/projects/pyramid_cookbook/dev/>`_ presents
