@@ -15,6 +15,7 @@ below.
    :maxdepth: 2
 
    docs/pyramid
+   docs/pylons
    docs/libraries
 
 Support
