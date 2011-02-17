@@ -5,97 +5,17 @@ The Pylons Project maintains the Pyramid web framework as well as additional
 packages intended for use with Pyramid. This is the home for the
 documentation for all of these projects.
 
-Pyramid
--------
+Documentation Index
+-------------------
 
-* `Pyramid documentation 1.0 </projects/pyramid/1.0/>`_ 
-  (`PDF <http://static.pylonsproject.org/pyramid-1.0.pdf>`_) 
-  (`Epub <http://static.pylonsproject.org/pyramid-1.0.epub>`_)
+Documentation sources for subprojects within the Pylons Project are listed
+below.
 
-* `Pyramid documentation development </projects/pyramid/dev/>`_ 
-  (`PDF <http://static.pylonsproject.org/pyramid-1.0dev.pdf>`_) 
-  (`Epub <http://static.pylonsproject.org/pyramid-1.0dev.epub>`_)
+.. toctree::
+   :maxdepth: 2
 
-Pyramid Add-Ons
----------------
-
-Pyramid supports extensibility through add-ons.  The following lists of
-add-ons are officially endorsed by the Pylons Project.
-
-Pyramid Add-Ons Hosted Within Pylons Github Organization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The following add-ons have source code hosted within the collection of
-repositories related to the `Pylons Project Github organization
-<https://github.com/organizations/Pylons>`_.
-
-* `pyramid_beaker </projects/pyramid_beaker/dev/>`_, beaker session backend
-  plug-in.
-
-* `pyramid_jinja2 </projects/pyramid_jinja2/dev/>`_, `Jinja2
-  <http://jinja.pocoo.org/>`_ template renderer for Pyramid
-
-* `pyramid_chameleon_genshi </projects/pyramid_chameleon_genshi/dev/>`_,
-  template renderer for `Chameleon's Genshi implementation
-  <http://chameleon.repoze.org/docs/latest/genshi.html>`_.
-
-* `pyramid_rpc </projects/pyramid_rpc/dev/>`_, RPC service add-on for
-  Pyramid, supports XML-RPC in a more extensible manner than `pyramid_xmlrpc`
-  with planned support for JSON-RPC and AMF.
-
-* `pyramid_xmlrpc </projects/pyramid_xmlrpc/dev/>`_, XML-RPC add-on for
-  Pyramid
-
-* `pyramid_handlers </projects/pyramid_handlers/dev/>`_, analogue of
-  Pylons-style "controllers" for Pyramid.
-
-* `pyramid_zcml </projects/pyramid_zcml/dev/>`_, Zope Configuration Markup
-  Language configuration support for Pyramid.
-
-Pyramid Add-Ons Hosted Outside Pylons Github Organization
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The following packages are hosted in locations outside of the Pylons Project
-Github organization.
-
-* `pyramid_mailer </thirdparty/pyramid_mailer/dev/>`_, a package for the
-  Pyramid framework to take the pain out of sending emails.  Source:
-  https://bitbucket.org/danjac/pyramid_mailer
-
-Other Packages
-~~~~~~~~~~~~~~
-
-The following packages are hosted within the Pylons Project GitHub
-organization repository structure, and are officially endorsed, but are not
-Pyramid add-ons.
-
-* `deform </projects/deform/dev/>`_, HTML form library.
-
-* `colander </projects/colander/dev/>`_,
-  serialization/deserialization/validation library.
-
-* `peppercorn </projects/peppercorn/dev/>`_, A library for converting a token
-  stream into a data structure comprised of sequences, mappings, and scalars,
-  developed primarily for converting HTTP form post data into a richer data
-  structure.
-
-* `translationstring </projects/translationstring/dev/>`_, an
-  internationalization library used by various Pylons Project software.
-
-* `venusian </projects/venusian/dev/>`_, a library useful for
-  framework authors to defer decorator actions.
-
-Pyramid Resources (In-Progress)
--------------------------------
-
-`The Pyramid Cookbook
-<http://docs.pylonsproject.org/projects/pyramid_cookbook/dev/>`_ presents
-topical, practical usages of Pyramid.  Unfinished.
-
-`Pyramid Tutorials
-<http://docs.pylonsproject.org/projects/pyramid_tutorials/dev/>`_ presents
-tutorials dealing with Pyramid integrations with other technologies.  Very
-unfinished.
+   docs/pyramid
+   docs/libraries
 
 Support
 -------
