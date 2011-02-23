@@ -262,7 +262,7 @@ many things (eight different cases).
 
 In general, the prolog of the TCM should establish the one set of
 preconditions by setting up fixtures / mock objects / static values, and then
-instantiate the class or import the FUT(function-under-test). The TCM should
+instantiate the class or import the FUT (function-under-test). The TCM should
 then call the method / function. The epilog should test the outcomes,
 typically by examining either the return value or the state of one or more
 fixtures / mock objects.
