@@ -8,7 +8,7 @@ Show others you're a Pylons Project user.
 Pyramid Desktops
 ----------------
 
-.. image:: desktops/pyramid-desktop-320x200.jpg
+.. image:: desktops/pyramid-desktop-320X200.jpg
 
 Choose a size
 
@@ -20,7 +20,7 @@ Choose a size
 Not Built By Aliens #1
 ----------------------
 
-.. image:: desktops/pyramid-aliens1-320x200.jpg
+.. image:: desktops/pyramid-aliens1-320X200.jpg
 
 Choose a size
 
@@ -32,7 +32,7 @@ Choose a size
 Not Built By Aliens #2
 ----------------------
 
-.. image:: desktops/pyramid-aliens2-320x200.jpg
+.. image:: desktops/pyramid-aliens2-320X200.jpg
 
 Choose a size
 
