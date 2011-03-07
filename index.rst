@@ -22,7 +22,7 @@ Support
 -------
 
 Development questions related to Pylons projects can be discussed on the 
-`pylons-devel mail list <http://groups.google.com/group/pylons-devel/>`_.
+`pylons-discuss mail list <http://groups.google.com/group/pylons-discuss/>`_.
 
 On IRC, Pylons developers are generally available on the ``#pylons`` channel
 on the `Freenode IRC Network <http://freenode.net/>`_.
