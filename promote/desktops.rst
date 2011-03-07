@@ -8,7 +8,7 @@ Show others you're a Pylons Project user.
 Pyramid Desktops
 ----------------
 
-.. image:: desktops/pyramid-desktop-320x200.png
+.. image:: desktops/pyramid-desktop-320x200.jpg
 
 Choose a size
 
@@ -20,23 +20,23 @@ Choose a size
 Not Built By Aliens #1
 ----------------------
 
-.. image:: desktops/1-not-built-by-aliens-320x200.png
+.. image:: desktops/pyramid-aliens1-320x200.jpg
 
 Choose a size
 
-* :download:`Desktop 1024x640 <desktops/1-not-built-by-aliens-1024X640.jpg>`
-* :download:`Desktop 1440x900 <desktops/1-not-built-by-aliens-1440X900.jpg>`
-* :download:`Desktop 1680x1050 <desktops/1-not-built-by-aliens-1680X1050.jpg>`
-* :download:`Desktop 1920x1200 <desktops/1-not-built-by-aliens-1920X1200.jpg>`
+* :download:`Desktop 1024x640 <desktops/pyramid-aliens1-1024X640.jpg>`
+* :download:`Desktop 1440x900 <desktops/pyramid-aliens1-1440X900.jpg>`
+* :download:`Desktop 1680x1050 <desktops/pyramid-aliens1-1680X1050.jpg>`
+* :download:`Desktop 1920x1200 <desktops/pyramid-aliens1-1920X1200.jpg>`
 
 Not Built By Aliens #2
 ----------------------
 
-.. image:: desktops/2-not-built-by-aliens-320x200.png
+.. image:: desktops/pyramid-aliens2-320x200.jpg
 
 Choose a size
 
-* :download:`Desktop 1024x640 <desktops/2-not-built-by-aliens-1024X640.jpg>`
-* :download:`Desktop 1440x900 <desktops/2-not-built-by-aliens-1440X900.jpg>`
-* :download:`Desktop 1680x1050 <desktops/2-not-built-by-aliens-1680X1050.jpg>`
-* :download:`Desktop 1920x1200 <desktops/2-not-built-by-aliens-1920X1200.jpg>`
+* :download:`Desktop 1024x640 <desktops/pyramid-aliens2-1024X640.jpg>`
+* :download:`Desktop 1440x900 <desktops/pyramid-aliens2-1440X900.jpg>`
+* :download:`Desktop 1680x1050 <desktops/pyramid-aliens2-1680X1050.jpg>`
+* :download:`Desktop 1920x1200 <desktops/pyramid-aliens2-1920X1200.jpg>`
