@@ -20,7 +20,7 @@ Choose a size
 Not Built By Aliens #1
 ----------------------
 
-.. image:: desktops/1-not-built-by-aliens-320x200.jpg
+.. image:: desktops/1-not-built-by-aliens-320x200.png
 
 Choose a size
 
@@ -32,7 +32,7 @@ Choose a size
 Not Built By Aliens #2
 ----------------------
 
-.. image:: desktops/2-not-built-by-aliens-320x200.jpg
+.. image:: desktops/2-not-built-by-aliens-320x200.png
 
 Choose a size
 
