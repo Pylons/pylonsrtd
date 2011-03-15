@@ -59,6 +59,7 @@ package might raise some questions regarding how to proceed, what it means
 for existing applications.
 
 .. toctree::
+   :maxdepth: 1
 
    faq/pylonsproject
    faq/pyramid
