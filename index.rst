@@ -12,7 +12,7 @@ Documentation sources for subprojects within the Pylons Project are listed
 below.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    docs/pyramid
    docs/pylons
@@ -72,7 +72,7 @@ for contributions, and the community standards we expect everyone to abide
 by.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    community/conduct
    community/contributing
@@ -131,7 +131,7 @@ If you want to promote The Pylons Project and it's related technologies or your
 own work made with our tools.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     promote/logos
     promote/badges
@@ -143,7 +143,7 @@ Denials
 Don't worry, none of these are actually true. We swear!
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     
     denials/pyramid
 
