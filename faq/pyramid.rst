@@ -90,6 +90,13 @@ a magnificently-tested web framework, and a slim execution footprint, you'll
 like Pyramid. If you're curious in fresh new ideas about extensibility, come
 hang out with us and throw your two cents into the mix.
 
+Is a port to Python 3 planned? When?
+------------------------------------
+
+We are working on it. Since Pyramid has a few dependencies, we have been
+working on helping them being ported first. We hope to be ready for Python 3
+before 2011 ends.
+
 What do you mean by "Small"?
 -----------------------------
 
