@@ -18,6 +18,8 @@ below.
    docs/pylons
    docs/libraries
 
+.. _support-desc:
+
 Support
 -------
 
