@@ -107,7 +107,7 @@ html_theme = 'pylons'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'The Pylons Project Documentation v%s' % release
+html_title = 'The Pylons Project Documentation Site'
 
 # A shorter title for the navigation bar.  Default is the same as
 # html_title.
