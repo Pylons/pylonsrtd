@@ -110,6 +110,7 @@ by.
    community/codestyle
    community/testing
    community/featuresbugs
+   community/addons-devenvs
 
 Denials
 -------
