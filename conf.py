@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General substitutions.
-project = 'pylonshq'
+project = 'pylonsrtd'
 copyright = '2011, Agendaless Consulting <chrism@plope.com>'
 
 # The default replacements for |version| and |release|, also used in various
@@ -99,6 +99,7 @@ today_fmt = '%B %d, %Y'
 sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
 html_theme = 'pylons'
+html_theme_options = dict(github_url='https://github.com/Pylons/pylonsrtd')
 
 # The style sheet to use for HTML and HTML Help pages. A file of that name
 # must exist either in Sphinx' static/ path, or in one of the custom paths
@@ -107,7 +108,7 @@ html_theme = 'pylons'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = 'The Pylons Project Documentation Site'
+html_title = 'The Pylons Project Documentation'
 
 # A shorter title for the navigation bar.  Default is the same as
 # html_title.
@@ -165,7 +166,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pylons'
+htmlhelp_basename = 'pylonsrtd'
 
 
 # Options for LaTeX output
@@ -181,8 +182,8 @@ htmlhelp_basename = 'pylons'
 # (source start file, target name, title,
 #  author, document class [howto/manual]).
 latex_documents = [
-  ('index', 'pylonshq.tex', 'PylonsHQ Documentation',
-   'Repoze Developers', 'manual'),
+  ('index', 'pylonshq.tex', 'Pylons Project Documentation',
+   'Pylons Developers', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the
