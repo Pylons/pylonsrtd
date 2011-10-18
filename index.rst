@@ -122,3 +122,12 @@ Don't worry, none of these are actually true. We swear!
     
     denials/pyramid
 
+.. add glossary, foreword, and latexindex in a hidden toc to avoid warnings
+
+.. toctree::
+   :hidden:
+
+   glossary
+   README
+
+

@@ -60,6 +60,11 @@ today_fmt = '%B %d, %Y'
 # searched for source files.
 #exclude_dirs = []
 
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+exclude_patterns = ['_themes/README.rst', 'docs/pyramid_install.rst',
+                    'docs/pyramid_quick_tutorial.rst']
+
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
 #default_role = None
