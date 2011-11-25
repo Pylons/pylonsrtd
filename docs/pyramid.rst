@@ -15,7 +15,7 @@ speed right away:
 * Coming from Pylons?  Start with :ref:`Akhet <akhet-desc>`.
 
 * To get the feel of how a Pyramid web application is created, go to the 
-  `quick tutorial </projects/pyramid_tutorials/en/latest/quick_tutorial/quick_tutorial.html>`_ page. 
+  `single file tasks tutorial </projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html>`_ page. 
 
 * Like learning by example? Check out to the `wiki tutorial
   </projects/pyramid/en/1.2-branch/tutorials/wiki2/index.html>`_.
