@@ -12,8 +12,6 @@ speed right away:
 * For help getting Pyramid set up, try the `install guide
   <pyramid_install.html>`_.
 
-* Coming from Pylons?  Start with :ref:`Akhet <akhet-desc>`.
-
 * To get the feel of how a Pyramid web application is created, go to the 
   `single file tasks tutorial </projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html>`_ page. 
 
