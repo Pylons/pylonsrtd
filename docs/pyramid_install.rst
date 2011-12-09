@@ -10,9 +10,8 @@ or if you are using a different platform, please consult our
 Before You Install
 ------------------
 
-You will need Python version 2.4 or better to
-run Pyramid. Pyramid doesn't run on Python 3 yet, but we're working
-on it. `Get Python now <http://www.python.org/download/>`_.
+You will need Python version 2.6 or better (or Python 3.2) to run
+Pyramid. `Get Python now <http://www.python.org/download/>`_.
 
 Pyramid is known to run on all popular Unix-like systems such as
 Linux, MacOS X, and FreeBSD as well as on Windows platforms.  It is also
