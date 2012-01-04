@@ -167,7 +167,7 @@ often have dependencies beyond those of the Pyramid core.
 
 .. _akhet-desc:
 
-* `Akhet </projects/akhet/en/latest/>`_: Akhet is an application scaffolding for
+* `Akhet </projects/akhet/en/v1.0.2/>`_: Akhet is an application scaffolding for
   Pyramid that's closer to the Pylons 1 style than Pyramid's built-in
   scaffolding. The manual also tries to be a gentler introduction to Pyramid
   for those from a Pylons-ish background.
