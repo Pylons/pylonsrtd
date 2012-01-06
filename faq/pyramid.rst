@@ -93,9 +93,8 @@ hang out with us and throw your two cents into the mix.
 Is a port to Python 3 planned? When?
 ------------------------------------
 
-We are working on it. Since Pyramid has a few dependencies, we have been
-working on helping them being ported first. We hope to be ready for Python 3
-before 2011 ends.
+Pyramid 1.3a1+ runs on Python 3.2 and better.  Earlier versions run on Python
+2 only.
 
 What do you mean by "Small"?
 -----------------------------
