@@ -54,3 +54,9 @@ Pyramid add-ons.
 
   - Version Control: https://bitbucket.org/bbangert/webhelpers
 
+* `Waitress </projects/waitress/en/latest/>`_, WSGI server that runs under
+  Python 2 and Python 3 on UNIX and Windows.
+
+  - Maintained by:  Chris McDonough
+
+  - Version Control: https://github.com/Pylons/waitress
