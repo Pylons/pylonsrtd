@@ -47,7 +47,6 @@ near the top of your Sphinx ``conf.py``:
         sys.path.append(os.path.abspath(parent))
         os.chdir(parent)
 
-    sys.path.append(os.path.abspath('_themes'))
     html_theme_path = ['_themes']
     html_theme = 'pylons'
     html_theme_options = {github_url:'https://github.com/Pylons/yourprojname'}
