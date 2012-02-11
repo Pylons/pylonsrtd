@@ -13,49 +13,68 @@ Every project needs to have documentation built with `sphinx
 <http://sphinx.pocoo.org/>`_ using the `pylons sphinx theme
 <http://github.com/Pylons/pylons_sphinx_theme>`_ for consistency.
 
-To build documentation using the Pylons theme, first checkout the theme from
-github with:
-
-.. code-block:: bash
-    
-    git clone git://github.com/Pylons/pylons_sphinx_theme.git
-
-Then in the project that needs documentation built with it, under the docs dir
-symlink in the pylons theme:
-
-.. code-block:: bash
-    
-    ln -s /path/to/pylons_sphinx_theme _themes
-
-Then in your conf.py file add the _themes directory to your python path,
-assign it to html_theme_path and select you html_theme: 
+To build documentation using the Pylons theme, add the following boilerplate
+near the top of your Sphinx ``conf.py``:
 
 .. code-block:: python
-    :linenos:
-    
+
+    import sys, os
+
+    # Add and use Pylons theme
+    # protect against dumb importers
+    if 'sphinx-build' in ' '.join(sys.argv): 
+        from subprocess import call, Popen, PIPE
+
+        p = Popen('which git', shell=True, stdout=PIPE)
+        git = p.stdout.read().strip()
+        cwd = os.getcwd()
+        _themes = os.path.join(cwd, '_themes')
+
+        if not os.path.isdir(_themes):
+            call([git, 
+                  'clone', 
+                  'git://github.com/Pylons/pylons_sphinx_theme.git',
+                   '_themes'])
+        else:
+            os.chdir(_themes)
+            call([git, 'checkout', 'master'])
+            call([git, 'pull'])
+            os.chdir(cwd)
+
+        sys.path.append(os.path.abspath('_themes'))
+
+        parent = os.path.dirname(os.path.dirname(__file__))
+        sys.path.append(os.path.abspath(parent))
+        os.chdir(parent)
+
     sys.path.append(os.path.abspath('_themes'))
     html_theme_path = ['_themes']
     html_theme = 'pylons'
+    html_theme_options = {github_url:'https://github.com/Pylons/yourprojname'}
 
-This will then allow you to build the project utilizing the theme, and when
-updates are made to the theme the docs can be rebuilt easily but pulling
-changes from the git repository.
+Then cause the resulting ``_themes`` directory to be ignored in your version
+control system.
+
+This will allow you to build the project utilizing the theme, and when
+updates are made to the theme the changes to the theme will be pulled
+automatically when your docs are rebuilt.
 
 New Feature Code Requirements
 -----------------------------
 
 In order to add a feature to any Pylons Project package:
 
-- The feature must be documented in both the API and narrative
-  documentation (in ``docs/``).
+- The feature must be documented in both the API and narrative documentation
+  (in ``docs/``).
 
-- The feature must work fully on the following CPython versions: 2.4,
-  2.5, 2.6, and 2.7 on both UNIX and Windows.
-
-- The feature must not cause installation or runtime failure on Jython or App
-  Engine. If it doesn't cause installation or runtime failure, but doesn't
-  actually *work* on these platforms, that caveat should be spelled out in the
-  documentation.
+- The feature must work fully on the CPython 2.6 and 2.7 on both UNIX and
+  Windows and PyPy on UNIX.  Most Pylons Project packages now either run or
+  want to run on Python 3; if you're working on such a package and it already
+  runs on Python 3.2, it must continue to run under Python 3.2 after your
+  change.  Some packages explicitly list Python 2.4 or Python 2.5 support;
+  such support should be maintained if it exists.  The ``tox.ini`` of most
+  Pylons Project packages indicates which versions the package is tested
+  under.
 
 - The feature must not depend on any particular persistence layer (filesystem,
   SQL, etc).
@@ -94,10 +113,9 @@ The codebase *must* have 100% test statement coverage after each commit. You
 can test coverage via ``python setup.py nosetests --with-coverage`` (requires
 the ``nose`` and ``coverage`` packages).
 
-Testing code in a consistent manner can be difficult, to help developers learn
-our style ("dogma") of testing we've made available a set of testing notes.
-
-:ref:`testing_guidelines`
+Testing code in a consistent manner can be difficult, to help developers
+learn our style ("dogma") of testing we've made available a set of testing
+notes at :ref:`testing_guidelines`.
 
 Coding Style
 ------------
@@ -128,6 +146,16 @@ mandatory.
   Importing a single item per line makes it easier to read patches and commit
   diffs.
 
+  If you need to import lots of names from a single package, use:
+
+  .. code-block:: python
+
+     from thepackage import (
+         foo,
+         bar,
+         baz,
+         )
+
 * Import Order
   
   Imports should be ordered by their origin. Names should be imported in
@@ -141,9 +169,10 @@ mandatory.
 
 * Wildcard Imports
   
-  Do *not* import all the names from a package, import just the ones that
-  are needed. Single-line imports applies here as well, each name from the
-  other package should be imported on its own line.
+  Do *not* import all the names from a package (e.g. never use ``from package
+  import *``), import just the ones that are needed. Single-line imports
+  applies here as well, each name from the other package should be imported
+  on its own line.
 
 * No mutable objects as default arguments
   
