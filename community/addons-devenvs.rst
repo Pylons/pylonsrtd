@@ -72,9 +72,7 @@ Making Good Development Environments
 If you are creating a higher-level framework atop the Pyramid codebase that
 contains "template" code (skeleton code rendered by a user via ``paster
 create -t foo``), for the purposes of uniformity with other "development
-environment" packages, we offer some guidelines below.  `Akhet
-<https://docs.pylonsproject.org/projects/akhet/dev/>`_ is a good example of a
-development environment that attempts to meet these guidelines.
+environment" packages, we offer some guidelines below. 
 
 * It should not be named with a ``pyramid_`` prefix.  For example, instead
   of ``pyramid_foo`` it should just be named ``foo``.  The ``pryamid_``
