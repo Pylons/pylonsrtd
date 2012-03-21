@@ -10,7 +10,7 @@ speed right away:
 * Check out  our `FAQ </faq/pyramid.html>`_.
 
 * For help getting Pyramid set up, try the `install guide
-  <http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/narr/install.html>`_.
+  </projects/pyramid/en/1.3-branch/narr/install.html>`_.
 
 * To get the feel of how a Pyramid web application is created, go to the 
   `single file tasks tutorial </projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html>`_ page. 
