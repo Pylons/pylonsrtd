@@ -16,7 +16,7 @@ speed right away:
   `single file tasks tutorial </projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html>`_ page. 
 
 * Like learning by example? Check out to the `wiki tutorial
-  </projects/pyramid/en/latest/tutorials/wiki2/index.html>`_.
+  </projects/pyramid/en/1.3-branch/tutorials/wiki2/index.html>`_.
 
 * Need help?  See :ref:`support-desc`.
 
