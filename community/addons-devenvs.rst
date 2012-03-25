@@ -10,7 +10,7 @@ environments". If you would like your add-on to be considered for inclusion
 into the `Pyramid Add-Ons
 <http://docs.pylonsproject.org/docs/pyramid.html#pyramid-add-ons>`_ or
 `Development Environments
-<https://docs.pylonsproject.org/docs/pyramid.html#pyramid-development-environment-documentation>`_
+<http://docs.pylonsproject.org/docs/pyramid.html#pyramid-development-environment-documentation>`_
 sections of the Pylons Project web site, you should attempt to adhere to
 these guidelines.
 
