@@ -58,6 +58,41 @@ This will allow you to build the project utilizing the theme, and when
 updates are made to the theme the changes to the theme will be pulled
 automatically when your docs are rebuilt.
 
+PDF output
+~~~~~~~~~~
+
+Set the following values for ``latex_documents`` in ``docs/conf.py``::
+
+    # Grouping the document tree into LaTeX files. List of tuples
+    # (source start file, target name, title, author, document class [howto/manual]).
+    latex_documents = [
+    ('latexindex', 'pyramid_<project name>.tex',
+    'Pyramid\_<project name>',
+    'Author', 'manual'),
+        ]
+
+It is important to use \\_ to escape the underscore in the document
+title to prevent a failure in LaTeX.
+
+Comment the following line::
+
+    #latex_logo = '_static/pylons_small.png'
+
+Copy the folder ``pyramid/docs/_static`` (contains two .png files) and the
+file ``pyramid/docs/convert_images.sh`` into your ``docs/`` folder.
+
+
+ePub output
+~~~~~~~~~~~
+
+Make sure you have the following value for ``epub_exclude_files``
+in ``docs/conf.py``::
+
+    # A list of files that should not be packed into the epub file.
+    epub_exclude_files = ['_static/opensearch.xml', '_static/doctools.js',
+        '_static/jquery.js', '_static/searchtools.js', '_static/underscore.js',
+        '_static/basic.css', 'search.html', '_static/websupport.js' ]
+
 New Feature Code Requirements
 -----------------------------
 
