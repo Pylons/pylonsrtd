@@ -146,6 +146,13 @@ here.
 
   - Version Control: https://github.com/Pylons/pyramid_zcml
 
+* `pyramid_zodbconn </projects/pyramid_zodbconn/en/latest/>`_: ZODB Database
+  connection management for Pyramid.
+
+  - Mantained by: Chris McDonough, Chris Rossi
+
+  - Version Control:  https://github.com/Pylons/pyramid_zodbconn
+
 Pyramid Development Environment Documentation
 ---------------------------------------------
 
