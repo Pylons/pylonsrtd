@@ -103,6 +103,13 @@ here.
 
   - Version Control: https://github.com/Pylons/pyramid_jqm
 
+* `pyramid_ldap </projects/pyramid_ldap/en/latest/>`_, an LDAP authentication
+  policy for Pyramid.
+
+  - Maintained by:  Chris McDonough
+
+  - Version Control: https://github.com/Pylons/pyramid_ldap
+
 * `pyramid_mailer </projects/pyramid_mailer/en/latest/>`_: a package for the
   Pyramid framework to take the pain out of sending emails.
 
