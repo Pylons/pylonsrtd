@@ -26,6 +26,16 @@ of opinions.  These are referred to as "development environments".
 Below, we talk about what makes a good add-on and what makes a good
 development environment.
 
+Contributing Addons
+----------------------
+Pyramid give you a repository where everyone can commit and share their addons.
+
+
+Please refer to the `community docs <https://github.com/pyramid-collective/pyramid-collective.github.com>`_
+
+
+
+
 Making Good Add-Ons
 -------------------
 
@@ -72,7 +82,7 @@ Making Good Development Environments
 If you are creating a higher-level framework atop the Pyramid codebase that
 contains "template" code (skeleton code rendered by a user via ``paster
 create -t foo``), for the purposes of uniformity with other "development
-environment" packages, we offer some guidelines below. 
+environment" packages, we offer some guidelines below.
 
 * It should not be named with a ``pyramid_`` prefix.  For example, instead
   of ``pyramid_foo`` it should just be named ``foo``.  The ``pryamid_``
