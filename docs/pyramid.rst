@@ -26,12 +26,12 @@ Main Documentation
 * `Pyramid documentation 1.3 </projects/pyramid/en/1.3-branch/>`_ (`1.3 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.3-branch/pyramid.pdf>`_) (`1.3 Epub
   <http://media.readthedocs.org/epub/pyramid/1.3-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's alpha/beta release.
+  documentation for Pyramid's current stable release.
 
 * `Pyramid documentation 1.2 </projects/pyramid/en/1.2-branch/>`_ (`1.2 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.2-branch/pyramid.pdf>`_) (`1.2 Epub
   <http://media.readthedocs.org/epub/pyramid/1.2-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's current stable release.
+  documentation for Pyramid's 1.2 version.
 
 * `Pyramid documentation 1.1 </projects/pyramid/en/1.1-branch/>`_ (`1.1 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.1-branch/pyramid.pdf>`_) (`1.1 Epub
