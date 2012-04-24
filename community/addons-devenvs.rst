@@ -28,13 +28,9 @@ development environment.
 
 Contributing Addons
 ----------------------
-Pyramid give you a repository where everyone can commit and share their addons.
-
+Pyramid provides a repository that allows everyone to share add-ons.
 
 Please refer to the `community docs <https://github.com/pyramid-collective/pyramid-collective.github.com>`_
-
-
-
 
 Making Good Add-Ons
 -------------------
