@@ -88,6 +88,18 @@ exclude_patterns = ['_themes/README.rst']
 # Options for HTML output
 # -----------------------
 
+if 'sphinx-build' in ' '.join(sys.argv): # protect against dumb importers
+    from subprocess import call, Popen, PIPE
+
+    cwd = os.getcwd()
+    _themes = os.path.join(cwd, '_themes')
+    p = Popen('which git', shell=True, stdout=PIPE)
+    git = p.stdout.read().strip()
+    if not os.listdir(_themes):
+        call([git, 'submodule', '--init'])
+    else:
+        call([git, 'submodule', 'update'])
+
 # Add and use Pylons theme
 sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
