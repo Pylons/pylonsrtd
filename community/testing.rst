@@ -104,7 +104,7 @@ both poor tests and poor documentation.
 - Doctests expose too many implementation details of the interpreter (such as
   the representation format of a class when printed).  Often doctests break
   when interpreter versions change, and the ameliorations that allow doctests
-  to straddle representations between versions them cause the doctest to
+  to straddle representations between versions then cause the doctest to
   become ugly and fragile.
 
 - Doctests have an execution model that makes it difficult to follow many of
@@ -430,10 +430,10 @@ The rationale for this prohibition is simplicity: unit tests need to exercise
 the AUT, while remaining as clear and simple as possible.
 
 * Because they are not in the module which uses them, shared mock objects and
-  fixtures makes impose a lookup burden on the reader.
+  fixtures imposes a lookup burden on the reader.
 
 * Because they have to support APIs used by multiple clients, shared fixtures
-  tend grow to grow APIs / data structures needed only by one client: in the
+  tend to grow APIs / data structures needed only by one client: in the
   degenerate case, become as complicated as the application they are supposed
   to stand in for!
 
