@@ -106,6 +106,13 @@ here.
 
   - Version Control: https://github.com/Pylons/pyramid_jqm
 
+* `pyramid_layout </projects/pyramid_layout/en/latest/>`_: Pyramid add-on 
+  for managing UI layouts.
+
+  - Maintained by: Chris Rossi, Paul Everitt, Blaise Laflamme
+
+  - Version Control: https://github.com/Pylons/pyramid_layout
+
 * `pyramid_ldap </projects/pyramid_ldap/en/latest/>`_, an LDAP authentication
   policy for Pyramid.
 
