@@ -9,8 +9,8 @@ speed right away:
 
 * Check out  our `FAQ </faq/pyramid.html>`_.
 
-* To see a minimal Pyramid web application and how to run it, checkout
-  `creating your first Pyramid application </projects/pyramid/en/1.3-branch/narr/firstapp.html>`_.
+* To see a minimal Pyramid web application, check out `creating your first
+  Pyramid application </projects/pyramid/en/1.3-branch/narr/firstapp.html>`_.
 
 * For help getting Pyramid set up, try the `install guide
   </projects/pyramid/en/1.3-branch/narr/install.html>`_.
