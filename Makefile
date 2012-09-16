@@ -25,7 +25,7 @@ help:
 clean:
 	-rm -rf _build/*
 
-html: _themes
+html: themes
 	mkdir -p _build/html _build/doctrees
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) _build/html
 	@echo
@@ -41,7 +41,7 @@ pickle:
 
 web: pickle
 
-htmlhelp: _themes
+htmlhelp: themes
 	mkdir -p _build/htmlhelp _build/doctrees
 	$(SPHINXBUILD) -b htmlhelp $(ALLSPHINXOPTS) _build/htmlhelp
 	@echo
@@ -70,4 +70,4 @@ linkcheck:
 	      "or in _build/linkcheck/output.txt."
 
 _themes:
-	git submodule update --init
+	git submodule update --init --recursive
