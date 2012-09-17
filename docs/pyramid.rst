@@ -26,6 +26,11 @@ speed right away:
 Main Documentation
 ------------------
 
+* `Pyramid documentation 1.4 </projects/pyramid/en/1.4-branch/>`_ (`1.4 PDF
+  <http://media.readthedocs.org/pdf/pyramid/1.4-branch/pyramid.pdf>`_) (`1.4 Epub
+  <http://media.readthedocs.org/epub/pyramid/1.4-branch/pyramid.epub>`_) - narrative and API
+  documentation for Pyramid's current alpha/beta release.
+
 * `Pyramid documentation 1.3 </projects/pyramid/en/1.3-branch/>`_ (`1.3 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.3-branch/pyramid.pdf>`_) (`1.3 Epub
   <http://media.readthedocs.org/epub/pyramid/1.3-branch/pyramid.epub>`_) - narrative and API
@@ -46,7 +51,7 @@ Main Documentation
   <http://media.readthedocs.org/epub/pyramid/1.0-branch/pyramid.epub>`_) - narrative and API
   documentation for Pyramid's 1.0 version.
 
-* `Pyramid development documentation </projects/pyramid/en/latest/>`_ - narrative
+* `Pyramid development documentation </projects/pyramid/en/master/>`_ - narrative
   and API documentation for Pyramid's unreleased in-development version.
 
 * `The Pyramid Tutorials
