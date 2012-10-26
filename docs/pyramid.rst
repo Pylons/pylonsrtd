@@ -136,7 +136,7 @@ here.
   Pyramid, supports XML-RPC in a more extensible manner than `pyramid_xmlrpc`
   with support for JSON-RPC and AMF.
 
-  - Maintained by: Ben Bangert
+  - Maintained by: Michael Merickel, Ben Bangert
 
   - Version Control: https://github.com/Pylons/pyramid_rpc
 
