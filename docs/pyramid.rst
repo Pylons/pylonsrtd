@@ -7,7 +7,7 @@ Getting Started
 If you are new to Pyramid, we have a few resources that can help you get up to
 speed right away:
 
-* Check out  our `FAQ </faq/pyramid.html>`_.
+* Check out  our `FAQ </en/latest/faq/pyramid.html>`_.
 
 * To see a minimal Pyramid web application, check out `creating your first
   Pyramid application </projects/pyramid/en/1.3-branch/narr/firstapp.html>`_.
