@@ -17,7 +17,9 @@
 # make it absolute, like shown here.
 #sys.path.append(os.path.abspath('some/directory'))
 
-import sys, os
+import sys
+import os
+import datetime
 
 # General configuration
 # ---------------------
@@ -37,7 +39,8 @@ master_doc = 'index'
 
 # General substitutions.
 project = 'pylonsrtd'
-copyright = '2011, Agendaless Consulting <chrism@plope.com>'
+year = datetime.date.today().year
+copyright = '2011-{0} Agendaless Consulting <chrism@plope.com>'.format(year)
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
