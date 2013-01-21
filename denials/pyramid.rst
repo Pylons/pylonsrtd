@@ -12,7 +12,7 @@ board rooms and chat rooms around the world.
 
 * These aliens are not telepathic.  They do not look like human babies.
 
-* **Pyramid** was not conceived of inside of a pyramid.
+* **Pyramid** was not conceived from inside of a pyramid.
 
 * The pyramid is not black.  It does not shoot a beam of light out of its top.
 
