@@ -9,8 +9,8 @@ coding style, testing, and documentation.
 Documentation Styling
 ---------------------
 
-Every project needs to have documentation built with `sphinx
-<http://sphinx.pocoo.org/>`_ using the `pylons sphinx theme
+Every project needs to have documentation built with `Sphinx
+<http://sphinx.pocoo.org/>`_ using the `Pylons Sphinx Theme
 <http://github.com/Pylons/pylons_sphinx_theme>`_ for consistency.
 
 To build documentation using the Pylons theme, add the following boilerplate
