@@ -18,7 +18,8 @@ near the top of your Sphinx ``conf.py``:
 
 .. code-block:: python
 
-    import sys, os
+    import os
+    import sys
 
     # Add and use Pylons theme
     # protect against dumb importers
