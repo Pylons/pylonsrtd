@@ -154,11 +154,17 @@ notes at :ref:`testing_guidelines`.
 Coding Style
 ------------
 
-All Python code should follow `PEP-8
+All Python code should follow a derivation of `PEP-8
 <http://www.python.org/dev/peps/pep-0008/>`_ style guide-lines. Whitespace
-rules are relaxed and it is not necessary to put 2 newlines between classes
-(though that's just fine if you do). 80-column lines, in particular, are
-mandatory.
+rules and other rules are relaxed (for example, it is not necessary to put 2
+newlines between classes though that's just fine if you do).  Other rules are
+relaxed too, such as spaces around operators, and other-such.  79-column lines,
+however, are mandatory.
+
+If you do use the ``pep8`` tool for automated checking, here is an invocation
+that is close to what is required by the project (subject to change)::
+
+  pep8 --ignore=E302,E261,E231,E123,E301,E226,E262,E225,E303,E125,E251,E201,E202,E128,E122,E701,E203,E222,W293,W291,W391 *.py
 
 * Single-line imports
   
