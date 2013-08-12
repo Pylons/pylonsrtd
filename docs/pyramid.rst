@@ -223,9 +223,9 @@ tagging, commenting, and file uploads.  See the `KARL site
 
 .. _akhet-desc:
 
-* `Khufu Project <http://khufuproject.github.com/>`_: Khufu is an application
-  scaffolding for Pyramid that provides an environment to work with Jinja2 and
-  SQLAlchemy.
+`Khufu Project <http://khufuproject.github.com/>`_: Khufu is an application
+scaffolding for Pyramid that provides an environment to work with Jinja2 and
+SQLAlchemy.
 
   - Maintained by: Rocky Burt
 
