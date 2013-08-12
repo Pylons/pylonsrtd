@@ -175,16 +175,51 @@ here.
 
   - Version Control:  https://github.com/Pylons/pyramid_zodbconn
 
-Pyramid Development Environment Documentation
----------------------------------------------
+Sample Applications
+===================
 
-Development environments are packages which use Pyramid as a core, but offer
-alternate services and scaffolding.  Each development environment presents a
-set of opinions and a "personality" to its users.  Although users of a
-development environment can still use all of the services offered by the
-Pyramid core, they are usually guided to a more focused set of opinions
-offered by the development environment itself.  Development environments
-often have dependencies beyond those of the Pyramid core.
+.. note::
+
+   These applications run only on Python 2.x, and so do some of their
+   dependencies.
+
+`cluegun <https://github.com/Pylons/cluegun>`_ is a simple pastebin
+application based on Rocky Burt's `ClueBin
+<http://pypi.python.org/pypi/ClueBin/0.2.3>`_.  It demonstrates form
+processing, security, and the use of :term:`ZODB` within a :app:`Pyramid`
+application.  Check this application out via:
+
+.. code-block:: text
+
+  git clone git://github.com/Pylons/cluegun.git
+
+`virginia <https://github.com/Pylons/virginia>`_ is a very simple dynamic
+file rendering application.  It is willing to render structured text
+documents, HTML documents, and images from a filesystem directory.
+It's also a good example of :term:`traversal`. An
+earlier version of this application runs the `repoze.org
+<http://repoze.org>`_ website.  Check this application out via:
+
+.. code-block:: text
+
+  git clone git://github.com/Pylons/virginia.git
+
+`shootout <https://github.com/Pylons/shootout>`_ is an example "idea
+competition" application by Carlos de la Guardia and Lukasz Fidosz.  It
+demonstrates :term:`URL dispatch`, simple authentication, integration
+with `SQLAlchemy <http://www.sqlalchemy.org/>`_ and ``pyramid_simpleform``.
+Check this application out of version control via:
+
+.. code-block:: text
+
+  git clone git://github.com/Pylons/shootout.git
+
+`KARL <http://karlproject.org>`_ is a moderately-sized application (roughly
+80K lines of Python code) built on top of :app:`Pyramid`.  It is an open
+source web system for collaboration, organizational intranets, and knowledge
+management. It provides facilities for wikis, calendars, manuals, searching,
+tagging, commenting, and file uploads.  See the `KARL site
+<http://karlproject.org>`_ for download and installation details.
 
 .. _akhet-desc:
 
