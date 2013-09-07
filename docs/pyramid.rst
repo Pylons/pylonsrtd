@@ -180,7 +180,7 @@ here.
 
   - Version Control:  https://github.com/Pylons/pyramid_zodbconn
 
-* `pyramid_mako </projects/pyramid_beaker/en/latest/>`_: Mako templating
+* `pyramid_mako </projects/pyramid_mako/en/latest/>`_: Mako templating
   bindings for Pyramid.
 
   - Maintained by: Bert JW Regeer
