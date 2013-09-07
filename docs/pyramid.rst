@@ -187,6 +187,13 @@ here.
 
   - Version Control: https://github.com/Pylons/pyramid_mako
 
+* `pyramid_chameleon </projects/pyramid_chameleon/en/latest/>`_: Chameleon
+  templating bindings for Pyramid.
+
+  - Maintained by: Chris McDonough
+
+  - Version Control: https://github.com/Pylons/pyramid_chameleon
+
 Sample Applications
 ===================
 
