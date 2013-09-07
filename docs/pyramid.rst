@@ -100,7 +100,7 @@ here.
 * `pyramid_jinja2 </projects/pyramid_jinja2/en/latest/>`_: `Jinja2
   <http://jinja.pocoo.org/>`_ template renderer for Pyramid
 
-  - Maintained by: Rocky Burt
+  - Maintained by: Domen Kožar
 
   - Version Control: https://github.com/Pylons/pyramid_jinja2
 
@@ -143,7 +143,7 @@ here.
 * `pyramid_tm </projects/pyramid_tm/en/latest/>`_: Centralized transaction 
   management for Pyramid applications (without middleware).
 
-  - Maintained by: Rocky Burt
+  - Maintained by: Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_tm
 
@@ -174,6 +174,14 @@ here.
   - Mantained by: Chris McDonough, Chris Rossi
 
   - Version Control:  https://github.com/Pylons/pyramid_zodbconn
+
+* `pyramid_mako </projects/pyramid_beaker/en/latest/>`_: Mako templating
+  bindings for Pyramid.
+
+  - Maintained by: Bert JW Regeer
+
+  - Version Control: https://github.com/Pylons/pyramid_mako
+
 
 Pyramid Development Environment Documentation
 ---------------------------------------------
