@@ -7,7 +7,7 @@ Pyramid add-ons.
 
 * `WebOb <http://webob.org>`_, WSGI request/response library
 
-  - Maintained by:  Sergey Schetenin
+  - Maintained by:  Chris McDonough
 
   - Version Control: https://github.com/Pylons/webob
 
