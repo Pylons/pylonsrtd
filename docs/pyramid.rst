@@ -70,16 +70,12 @@ Main Documentation
 Pyramid Add-On Documentation
 ----------------------------
 
+Supported Add-Ons
++++++++++++++++++
+
 Pyramid supports extensibility through add-ons.  The following add-ons are
 officially endorsed by the Pylons Project, and their documentation is hosted
 here.
-
-* `pyramid_beaker </projects/pyramid_beaker/en/latest/>`_: Beaker session backend
-  plug-in.
-
-  - Maintained by: Ben Bangert, Chris McDonough
-
-  - Version Control: https://github.com/Pylons/pyramid_beaker
 
 * `pyramid_debugtoolbar </projects/pyramid_debugtoolbar/en/latest/>`_, an interactive
   HTML debug toolbar for Pyramid.
@@ -193,6 +189,23 @@ here.
   - Maintained by: Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_chameleon
+
+Unsupported Add-Ons
++++++++++++++++++++
+
+These are libraries which used to be officially supported by the Pylons 
+Project, but have since become unsupported.
+
+* `pyramid_beaker </projects/pyramid_beaker/en/latest/>`_: Beaker session backend
+  plug-in.
+
+  - Maintained by: Ben Bangert, Chris McDonough
+
+  - Version Control: https://github.com/Pylons/pyramid_beaker
+
+  - Became unsupported Oct. 2013. Reason: Beaker itself is no longer maintained.
+
+
 
 Sample Applications
 ===================
