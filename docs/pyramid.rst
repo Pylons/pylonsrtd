@@ -26,6 +26,11 @@ speed right away:
 Main Documentation
 ------------------
 
+* `Pyramid latest documentation </projects/pyramid/en/latest/>`_ (`latest PDF
+  <http://media.readthedocs.org/pdf/pyramid/latest/pyramid.pdf>`_) (`latest Epub
+  <http://media.readthedocs.org/epub/pyramid/latest/pyramid.epub>`_) - narrative and API
+  documentation for Pyramid's latest version, 1.4.5, the current stable release.
+
 * `Pyramid documentation 1.5 </projects/pyramid/en/1.5-branch/>`_ (`1.5 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.5-branch/pyramid.pdf>`_) (`1.5 Epub
   <http://media.readthedocs.org/epub/pyramid/1.5-branch/pyramid.epub>`_) - narrative and API
