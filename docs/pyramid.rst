@@ -10,16 +10,16 @@ speed right away:
 * Check out  our `FAQ </en/latest/faq/pyramid.html>`_.
 
 * To see a minimal Pyramid web application, check out `creating your first
-  Pyramid application </projects/pyramid/en/1.4-branch/narr/firstapp.html>`_.
+  Pyramid application </projects/pyramid/en/1.5-branch/narr/firstapp.html>`_.
 
 * For help getting Pyramid set up, try the `install guide
-  </projects/pyramid/en/1.4-branch/narr/install.html>`_.
+  </projects/pyramid/en/1.5-branch/narr/install.html>`_.
 
 * To get the feel of how a Pyramid web application is created, go to the 
   `single file tasks tutorial </projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html>`_ page. 
 
 * Like learning by example? Check out to the `wiki tutorial
-  </projects/pyramid/en/1.4-branch/tutorials/wiki2/index.html>`_.
+  </projects/pyramid/en/1.5-branch/tutorials/wiki2/index.html>`_.
 
 * Need help?  See :ref:`support-desc`.
 
@@ -29,17 +29,17 @@ Main Documentation
 * `Pyramid latest documentation </projects/pyramid/en/latest/>`_ (`latest PDF
   <http://media.readthedocs.org/pdf/pyramid/latest/pyramid.pdf>`_) (`latest Epub
   <http://media.readthedocs.org/epub/pyramid/latest/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's latest version, 1.4.5, the current stable release.
+  documentation for Pyramid's latest version, 1.5, the current stable release.
 
 * `Pyramid documentation 1.5 </projects/pyramid/en/1.5-branch/>`_ (`1.5 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.5-branch/pyramid.pdf>`_) (`1.5 Epub
   <http://media.readthedocs.org/epub/pyramid/1.5-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's 1.5 version, in alpha/beta.
+  documentation for Pyramid's 1.5 version, in the current stable release.
 
 * `Pyramid documentation 1.4 </projects/pyramid/en/1.4-branch/>`_ (`1.4 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.4-branch/pyramid.pdf>`_) (`1.4 Epub
   <http://media.readthedocs.org/epub/pyramid/1.4-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's 1.4 version, the current stable release.
+  documentation for Pyramid's 1.4 version.
 
 * `Pyramid documentation 1.3 </projects/pyramid/en/1.3-branch/>`_ (`1.3 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.3-branch/pyramid.pdf>`_) (`1.3 Epub
