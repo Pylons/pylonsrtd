@@ -11,6 +11,6 @@ Glossary
 
    Pyramid
        A `web framework 
-       <http://docs.pylonsproject.org/projects/pyramid/dev/>`_ under 
+       <http://docs.pylonsproject.org/projects/pyramid/en/latest/>`_ under
        the Pylons Project.
 

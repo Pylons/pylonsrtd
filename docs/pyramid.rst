@@ -235,7 +235,7 @@ Sample Applications
 `cluegun <https://github.com/Pylons/cluegun>`_ is a simple pastebin
 application based on Rocky Burt's `ClueBin
 <http://pypi.python.org/pypi/ClueBin/0.2.3>`_.  It demonstrates form
-processing, security, and the use of :term:`ZODB` within a :app:`Pyramid`
+processing, security, and the use of :term:`ZODB` within a :term:`Pyramid`
 application.  Check this application out via:
 
 .. code-block:: text
@@ -264,7 +264,7 @@ Check this application out of version control via:
   git clone git://github.com/Pylons/shootout.git
 
 `KARL <http://karlproject.org>`_ is a moderately-sized application (roughly
-80K lines of Python code) built on top of :app:`Pyramid`.  It is an open
+80K lines of Python code) built on top of :term:`Pyramid`.  It is an open
 source web system for collaboration, organizational intranets, and knowledge
 management. It provides facilities for wikis, calendars, manuals, searching,
 tagging, commenting, and file uploads.  See the `KARL site
