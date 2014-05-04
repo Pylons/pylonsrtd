@@ -64,7 +64,8 @@ for existing applications.
    :maxdepth: 1
 
    faq/pylonsproject
-   faq/pyramid
+
+* `Pyramid Frequently Asked Questions <http://www.pylonsproject.org/projects/pyramid/faq>`_
 
 Podcasts
 --------

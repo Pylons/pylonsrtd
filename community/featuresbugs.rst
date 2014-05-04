@@ -46,12 +46,12 @@ it.
 To have the best chance of having a bug fixed, we need to be able to easily
 replicate the conditions that caused it. Most of the time this information
 will be from a Python traceback message, though some bugs might be in design,
-spelling, or other errors on the website/docs/code.
+spelling, or other errors on the website, docs, or code.
 
 If the error is from a Python traceback (`see a Python traceback 
 <http://pastebin.com/TyaPKpt9>`_), include it in the bug report being filed.
 We will also need to know what platform you're running (Windows, OSX, Linux),
-and which Python interpreter you're running if its not CPython (e.g. Jython, 
+and which Python interpreter you're running if it's not CPython (e.g. Jython,
 Google App Engine).
 
 5) Submit the bug
@@ -82,7 +82,7 @@ Working on Code
 
 To fix bugs or add features to a package managed by the Pylons project, an
 account on GitHub_ is required. All Pylons Project packages are under the
-`Pylons organization on github <http://github.com/Pylons>`_.
+`Pylons organization on GitHub <http://github.com/Pylons>`_.
 
 The general practice for contributing new features and bug fixes is to `fork
 the package <http://help.github.com/forking/>`_ in question and make changes
@@ -96,7 +96,7 @@ Proposing Features and Ideas
 ----------------------------
 
 When proposing an idea that isn't just a fix or a plain bug report, the best
-place to do so is on the `Pylons-Devel maillist
+place to do so is on the `Pylons-Devel mail list
 <http://groups.google.com/group/pylons-devel>`_ .  Another reasonable venue
 is IRC at ``#pylons`` on `FreeNode <http://freenode.net/>`_.
 
