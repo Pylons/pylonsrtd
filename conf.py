@@ -33,8 +33,9 @@ extensions = [
 
 # Looks for pyramid's objects
 intersphinx_mapping = {
-    'pyramid':
-    ('http://docs.pylonsproject.org/projects/pyramid/en/latest/', None),
+    'pyramid': ('http://docs.pylonsproject.org/projects/pyramid/en/latest/', None),
+    'tutorials': ('http://docs.pylonsproject.org/projects/pyramid-tutorials/en/latest/', None),
+    'cookbook': ('http://docs.pylonsproject.org/projects/pyramid-cookbook/en/latest/', None),
 }
 
 # Add any paths that contain templates here, relative to this directory.

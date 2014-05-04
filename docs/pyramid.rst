@@ -7,19 +7,20 @@ Getting Started
 If you are new to Pyramid, we have a few resources that can help you get up to
 speed right away:
 
-* Check out  our `FAQ </en/latest/faq/pyramid.html>`_.
+* :ref:`Installing Pyramid <pyramid:installing_chapter>`.
 
-* To see a minimal Pyramid web application, check out `creating your first
-  Pyramid application </projects/pyramid/en/1.5-branch/narr/firstapp.html>`_.
+* To see a minimal Pyramid web application, check out :ref:`Creating Your First
+  Pyramid Application <pyramid:firstapp_chapter>`.
 
-* For help getting Pyramid set up, try the `install guide
-  </projects/pyramid/en/1.5-branch/narr/install.html>`_.
+* `Pyramid Frequently Asked Questions <http://www.pylonsproject.org/projects/pyramid/faq>`_.
 
-* To get the feel of how a Pyramid web application is created, go to the 
-  `single file tasks tutorial </projects/pyramid_tutorials/en/latest/single_file_tasks/single_file_tasks.html>`_ page. 
+* To get a detailed experience of creating a Pyramid web application, try the :ref:`Quick
+  Tutorial for Pyramid <pyramid:quick_tutorial>`.
 
-* Like learning by example? Check out to the `wiki tutorial
-  </projects/pyramid/en/1.5-branch/tutorials/wiki2/index.html>`_.
+* Like learning by example? Check out to the official :ref:`Pyramid Tutorials
+  <pyramid:html_tutorials>` as well as the community-contributed
+  :ref:`Pyramid Tutorials <tutorials:pyramid-tutorials>` and :ref:`Pyramid
+  Cookbook Recipes <cookbook:pyramid-cookbook>`.
 
 * Need help?  See :ref:`support-desc`.
 
@@ -43,17 +44,21 @@ Development branch : upcoming 1.6 (master)
 * `Pyramid development documentation </projects/pyramid/en/master/>`_ - narrative and API
   documentation for Pyramid's unreleased in-development version.
 
-Tutorials and cookbooks
-+++++++++++++++++++++++
+.. _tutorials-cookbook:
 
-* `The Pyramid Tutorials
-  </projects/pyramid_tutorials/en/latest/>`_ presents
-  tutorial resources for Pyramid.
+Tutorials and Cookbook Recipes
+++++++++++++++++++++++++++++++
 
-* `The Pyramid Cookbook
-  </projects/pyramid_cookbook/en/latest/>`_ presents
-  topical, practical usages of Pyramid.  You can submit your Pyramid recipes
-  for inclusion in the cookbook through the `pyramid_cookbook repository
+* A list of all official and community-contributed :ref:`Pyramid Tutorials
+  <tutorials:pyramid-tutorials>`.  You may submit your tutorial for inclusion
+  by submitting a pull request through the `pyramid_tutorials repository
+  <https://github.com/Pylons/pyramid_tutorials>`_.
+
+* :ref:`The Pyramid Cookbook <cookbook:pyramid-cookbook>` presents topical,
+  practical uses of Pyramid. The Pyramid Cookbook is not a source of official
+  Pyramid documentation, but is a collection of contributions from the
+  community. You may submit your Pyramid recipes for inclusion in the Cookbook
+  through the `pyramid_cookbook repository
   <https://github.com/Pylons/pyramid_cookbook>`_.
 
 Previous versions

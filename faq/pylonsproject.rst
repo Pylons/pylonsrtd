@@ -48,8 +48,8 @@ What does the Pylons Project mean for Pylons-the-web-framework?
 The Pylons web framework 1.x line will continue to be maintained, though not
 enhanced. We will provide a package that allows Pylons 1.x applications and
 Pyramid applications to run in the same interpreter. The future of
-Pylon-style web application development is Pyramid.  See also
-:ref:`should_i_port`.
+Pylon-style web application development is Pyramid.  See also the FAQ,
+`Should I port my Pylons 1.0 project to Pyramid? <http://www.pylonsproject.org/projects/pyramid/faq>`_.
 
 What does the Pylons Project mean for repoze.bfg?
 -------------------------------------------------
