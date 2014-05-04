@@ -29,7 +29,7 @@ Contributing Add-ons
 --------------------
 Pyramid provides a repository that allows everyone to share add-ons.
 
-Please refer to the `community docs <https://github.com/pyramid-collective/pyramid-collective.github.com>`_
+Please refer to the `community docs <https://github.com/pyramid-collective/pyramid-collective.github.com>`_.
 
 Making Good Add-Ons
 -------------------
