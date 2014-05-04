@@ -1,5 +1,5 @@
-Pylons Documentation
-=====================
+Pylons (the web framework) Documentation
+========================================
 
 Main Documentation Sources
 --------------------------
