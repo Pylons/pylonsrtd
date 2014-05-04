@@ -36,10 +36,10 @@ look at an individual test and ask the following questions:
 * Is the intent of the test clearly explained by the name of the testcase?
 
 * Does the test follow the "canonical" form for a unit test? I.e., does it:
-    * set up the preconditions for the method / function being tested.
-    * call the method / function exactly one time, passing in the values
+    * set up the preconditions for the method/function being tested.
+    * call the method/function exactly one time, passing in the values
       established in the first step.
-    * make assertions about the return value, and / or any side effects.
+    * make assertions about the return value, and/or any side effects.
     * do absolutely nothing else.
 
 Fixing tests which fail along the "don't repeat yourself" axis is usually
@@ -50,18 +50,18 @@ straightforward:
   case class: such code is always capable of refactoring to use helper methods
   which return the appropriately-configured test objects on a per-test basis.
 
-* If the method / function under test is called more than once, clone (and
-  rename appropriately) the test case method, removing any redundant setup /
-  assertions, until each test case calls it exactly once.
+* If the method/function under test is called more than once, clone (and
+  rename appropriately) the test case method, removing any redundant
+  setup/assertions, until each test case calls it exactly once.
 
 
 Rewriting tests to conform to this pattern has a number of benefits:
 
-* Each individual test case specifies exactly one code path through the method /
-  function being tested, which means that achieving "100% coverage" means you
-  really did test it all.
+* Each individual test case specifies exactly one code path through the
+  method/function being tested, which means that achieving "100% coverage"
+  means you really did test it all.
 
-* The set of test cases for the method / function being tested define the
+* The set of test cases for the method/function being tested define the
   contract very clearly: any ambiguity can be solved by adding one or more
   additional tests.
 
@@ -75,17 +75,17 @@ Goals
 The goals of the kind of testing outlined here are simplicity, loose or no
 coupling, and speed:
 
-* Tests should be as simple as possible, while exercising the application- 
-  under-test (AUT) completely.
+* Tests should be as simple as possible, while exercising the
+  application-under-test (AUT) completely.
 * Tests should run as quickly as possible, to encourage running them
   frequently.
 * Tests should avoid coupling with other tests, or with parts of the AUT which
   they are not responsible for testing.
 
 Developers write such tests to verify that the AUT is abiding by the contracts
-the developer specifies. While an instance this type of test case may be
+the developer specifies. While an instance of this type of test case may be
 illustrative of the contract it tests, such test cases do not take the place
-of either API documentation or of narrative / "theory of operations"
+of either API documentation or of narrative "theory of operations"
 documentation. Still less are they intended for end-user documentation.
 
 Rule: Avoid doctests
@@ -113,8 +113,8 @@ both poor tests and poor documentation.
 - Doctests often encourage bad testing practice (cutting an unverified
   outcome of a function call and pasting it into a test suite).
 
-Rule: Never import the module-under-test at test module scope.
---------------------------------------------------------------
+Rule: Never import the module-under-test at test module scope
+-------------------------------------------------------------
 
 Import failures in the module-under-test (MUT) should cause individual test
 cases to fail: they should never prevent those tests from being run. Depending
@@ -159,11 +159,11 @@ prefer:
             self.assertEqual(foo.bar(), 'Bar')
 
 
-Guideline: Minimize module-scope dependencies.
-----------------------------------------------
+Guideline: Minimize module-scope dependencies
+---------------------------------------------
 
 Unit tests need to be runnable even in an environment which is missing some
-required features: in that case, one or more of the testcase methods (TCMs)
+required features: in that case, one or more of the test case methods (TCMs)
 will fail. Defer imports of any needed library modules as late as possible.
 
 For instance, this example generates no test failures at all if the ``qux``
@@ -210,13 +210,13 @@ module:
             import qux
             foo = self._makeOne(qux.Qux('Bar'))
 
-It may be a reasonable tradeoff in some cases to import a module (but not the
-MUT!) which is used widely within the test cases. Such a tradeoff should
+It may be a reasonable trade off in some cases to import a module (but not the
+MUT!) which is used widely within the test cases. Such a trade off should
 probably occur late in the life of the TCM, after the pattern of usage is
 clearly understood.
 
-Rule: Make each test case method test Just One Thing.
------------------------------------------------------
+Rule: Make each test case method test Just One Thing
+----------------------------------------------------
 
 Avoid the temptation to write fewer, bigger tests. Ideally, each TCM will
 exercise one set of preconditions for one method or function. For instance,
@@ -261,18 +261,18 @@ This test has a couple of faults, but the critical one is that it tests too
 many things (eight different cases).
 
 In general, the prolog of the TCM should establish the one set of
-preconditions by setting up fixtures / mock objects / static values, and then
+preconditions by setting up fixtures/mock objects/static values, and then
 instantiate the class or import the FUT (function-under-test). The TCM should
-then call the method / function. The epilog should test the outcomes,
+then call the method/function. The epilog should test the outcomes,
 typically by examining either the return value or the state of one or more
-fixtures / mock objects.
+fixtures/mock objects.
 
 Thinking about the separate sets of preconditions for each function or method
-being tested helps clarify the contract, and may inspire a simpler / cleaner /
+being tested helps clarify the contract, and may inspire a simpler, cleaner,
 faster implementation.
 
-Rule: Name TCMs to indicate what they test.
--------------------------------------------
+Rule: Name TCMs to indicate what they test
+------------------------------------------
 
 The name of the test should be the first, most useful clue when looking at a
 failure report: don't make the reader (yourself, most likely) grep the test
@@ -299,10 +299,10 @@ prefer to use the TCM name to indicate its purpose:
        def test_getBar_wo_baz(self):
            ...
 
-Guideline: Share setup via helper methods, not via attributes of ``self``.
---------------------------------------------------------------------------
+Guideline: Share setup via helper methods, not via attributes of ``self``
+-------------------------------------------------------------------------
 
-Doing unneeded work in the ``setUp`` method of a testcase class sharply
+Doing unneeded work in the ``setUp`` method of a test case class sharply
 increases coupling between TCMs, which is a Bad Thing. For instance, suppose
 the class-under-test (CUT) takes a context as an argument to its constructor.
 Rather than instantiating the context in ``setUp``:
@@ -338,8 +338,8 @@ This practice allows different tests to create the mock context differently,
 avoiding coupling. It also makes the tests run faster, as the tests which
 don't need the context don't pay for creating it.
 
-Guideline: Make fixtures as simple as possible.
------------------------------------------------
+Guideline: Make fixtures as simple as possible
+----------------------------------------------
 
 When writing a mock object, start off with an empty class, e.g.:
 
@@ -353,8 +353,8 @@ Run the tests, adding methods only enough to the mock object to make the
 dependent tests pass. Avoid giving the mock object any behavior which is not
 necessary to make one or more tests pass.
 
-Guideline: Use hooks and registries judiciously.
-------------------------------------------------
+Guideline: Use hooks and registries judiciously
+-----------------------------------------------
 
 If the application already allows registering plugins or components, take
 advantage of the fact to insert your mock objects. Don't forget to clean up
@@ -419,8 +419,8 @@ for easy testing of how it is used by the AUT:
 
            self.assertEqual(query.called_with, [{'bar': 'Dog and Whistle'}])
 
-Rule: Don't share text fixtures between test modules.
------------------------------------------------------
+Rule: Don't share text fixtures between test modules
+----------------------------------------------------
 
 The temptation here is to save typing by borrowing mock objects or fixture
 code from another test module. Once indulged, one often ends up moving such
@@ -430,15 +430,15 @@ The rationale for this prohibition is simplicity: unit tests need to exercise
 the AUT, while remaining as clear and simple as possible.
 
 * Because they are not in the module which uses them, shared mock objects and
-  fixtures imposes a lookup burden on the reader.
+  fixtures impose a lookup burden on the reader.
 
 * Because they have to support APIs used by multiple clients, shared fixtures
-  tend to grow APIs / data structures needed only by one client: in the
-  degenerate case, become as complicated as the application they are supposed
-  to stand in for!
+  tend to grow APIs and data structures needed only by one client: in the
+  degenerate case, they become as complicated as the application they are
+  supposed to stand in for!
 
 In some cases, it may be cleaner to avoid sharing fixtures even among test
-case methods (TCMs) within the same module / class.
+case methods (TCMs) within the same module or class.
 
 Conclusion
 ----------
@@ -450,7 +450,7 @@ Tests which conform to these rules and guidelines have the following properties:
 * They reward the developer through predictable feedback (e.g., the growing
   list of dots for passed tests).
 * They run quickly, and thus encourage the developer to run them frequently.
-* Expected failures confirm missing / incomplete implementations.
+* Expected failures confirm missing or incomplete implementations.
 * Unexpected failures are easy to diagnose and repair.
 * When used as regression tests, failures help pinpoint the exact source of
   the regression (a changed contract, for instance, or an underspecified
