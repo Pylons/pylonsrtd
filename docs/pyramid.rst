@@ -83,16 +83,17 @@ Previous versions
   <http://media.readthedocs.org/epub/pyramid/1.0-branch/pyramid.epub>`_) - narrative and API
   documentation for Pyramid's 1.0 version.
 
+.. _pyramid-add-ons:
 
-Pyramid Add-On Documentation
-----------------------------
+Pyramid Add-ons
+---------------
 
-Supported Add-Ons
+Supported Add-ons
 +++++++++++++++++
 
 Pyramid supports extensibility through add-ons.  The following add-ons are
-officially endorsed by the Pylons Project, and their documentation is hosted
-here.
+officially endorsed by the Pylons Project. Documentation for each add-on is
+hosted at its respective name under the Pylons Project.
 
 * `pyramid_debugtoolbar </projects/pyramid_debugtoolbar/en/latest/>`_, an interactive
   HTML debug toolbar for Pyramid.
@@ -220,61 +221,90 @@ Project, but have since become unsupported.
 
   - Version Control: https://github.com/Pylons/pyramid_beaker
 
-  - Became unsupported Oct. 2013. Reason: Beaker itself is no longer maintained.
+  - Became unsupported October 2013 because Beaker itself is no longer maintained.
 
+.. _sample_pyramid_apps:
 
+Sample Pyramid Applications
+---------------------------
 
-Sample Applications
-===================
+`cluegun <https://github.com/Pylons/cluegun>`_
+  A simple pastebin application based on Rocky Burt's `ClueBin <http://pypi.python.org/pypi/ClueBin/0.2.3>`_.
+  It demonstrates form processing, security, and the use of :term:`ZODB`
+  within a :term:`Pyramid` application.
 
-.. note::
+  - Version Control: https://github.com/Pylons/cluegun
 
-   These applications run only on Python 2.x, and so do some of their
-   dependencies.
+`KARL <http://karlproject.org>`_
+  A moderately-sized application (roughly 80K lines of Python code) built on
+  top of :term:`Pyramid`.  It is an open source web system for collaboration,
+  organizational intranets, and knowledge management. It provides facilities
+  for wikis, calendars, manuals, searching, tagging, commenting, and file
+  uploads.  See the `KARL site <http://karlproject.org>`_ for download and
+  installation details.
 
-`cluegun <https://github.com/Pylons/cluegun>`_ is a simple pastebin
-application based on Rocky Burt's `ClueBin
-<http://pypi.python.org/pypi/ClueBin/0.2.3>`_.  It demonstrates form
-processing, security, and the use of :term:`ZODB` within a :term:`Pyramid`
-application.  Check this application out via:
+`shootout <https://github.com/Pylons/shootout>`_
+  An example "idea competition" application by Carlos de la Guardia and Lukasz
+  Fidosz.  It demonstrates :term:`URL dispatch`, simple authentication,
+  integration with `SQLAlchemy <http://www.sqlalchemy.org/>`_ and
+  ``pyramid_simpleform``.
 
-.. code-block:: text
+  - Version Control: https://github.com/Pylons/shootout.git
 
-  git clone git://github.com/Pylons/cluegun.git
+`virginia <https://github.com/Pylons/virginia>`_
+  A very simple dynamic file rendering application.  It is willing to render
+  structured text documents, HTML documents, and images from a filesystem
+  directory. It's also a good example of :term:`traversal`. An earlier version
+  of this application runs the `repoze.org <http://repoze.org>`_ website.
 
-`virginia <https://github.com/Pylons/virginia>`_ is a very simple dynamic
-file rendering application.  It is willing to render structured text
-documents, HTML documents, and images from a filesystem directory.
-It's also a good example of :term:`traversal`. An
-earlier version of this application runs the `repoze.org
-<http://repoze.org>`_ website.  Check this application out via:
+  - Version Control: https://github.com/Pylons/virginia.git
 
-.. code-block:: text
+.. _sample_pyramid_dev_env:
 
-  git clone git://github.com/Pylons/virginia.git
+Sample Pyramid Development Environments
+---------------------------------------
 
-`shootout <https://github.com/Pylons/shootout>`_ is an example "idea
-competition" application by Carlos de la Guardia and Lukasz Fidosz.  It
-demonstrates :term:`URL dispatch`, simple authentication, integration
-with `SQLAlchemy <http://www.sqlalchemy.org/>`_ and ``pyramid_simpleform``.
-Check this application out of version control via:
+"Development environments" are packages which use Pyramid as a core, but offer
+alternate services and scaffolding.  Each development environment presents a
+set of opinions and a "personality" to its users.  Although users of a
+development environment can still use all of the services offered by the
+Pyramid core, they are usually guided to a more focused set of opinions
+offered by the development environment itself.  Development environments
+often have dependencies beyond those of the Pyramid core.
 
-.. code-block:: text
+`Akhet <http://docs.pylonsproject.org/projects/akhet/en/latest/>`_
+  A Pyramid library and demo application with a Pylons-like feel. Its most
+  known for its former application scaffold, which helped users transition
+  from Pylons and those preferring a more Pylons-like API. The scaffold has
+  been retired but the demo plays a similar role.
 
-  git clone git://github.com/Pylons/shootout.git
-
-`KARL <http://karlproject.org>`_ is a moderately-sized application (roughly
-80K lines of Python code) built on top of :term:`Pyramid`.  It is an open
-source web system for collaboration, organizational intranets, and knowledge
-management. It provides facilities for wikis, calendars, manuals, searching,
-tagging, commenting, and file uploads.  See the `KARL site
-<http://karlproject.org>`_ for download and installation details.
-
-`Khufu Project <http://khufuproject.github.com/>`_: Khufu is an application
-scaffolding for Pyramid that provides an environment to work with Jinja2 and
-SQLAlchemy.
+`Khufu Project <http://khufuproject.github.com/>`_
+  Khufu is an application scaffolding for Pyramid that provides an environment
+  to work with Jinja2 and SQLAlchemy.
 
   - Maintained by: Rocky Burt
-
   - Version Control: https://github.com/khufuproject
 
+`Kotti <http://kotti.pylonsproject.org/>`_
+  Kotti is a high-level, Pythonic web application framework. It includes an
+  extensible Content Management System called the Kotti CMS, offering all the
+  features you would expect from a modern CMS.
+
+  - Version Control: https://github.com/Kotti/Kotti
+
+`Ptah <https://github.com/ptahproject/ptah>`_
+  Ptah is a fast, fun, open source high-level Python web development environment.
+
+  - Version Control: https://github.com/ptahproject/ptah
+
+`Substance-D <http://substanced.net/>`_
+  An application server built upon the Pyramid web framework. It provides a
+  user interface for managing content as well as libraries and utilities which
+  make it easy to create applications.
+
+  - Version Control: https://github.com/Pylons/substanced
+
+`Ziggurat <https://github.com/sernst/Ziggurat>`_
+  A bundled application framework for data driven Pyramid project development.
+
+  - Version Control: https://github.com/sernst/Ziggurat
