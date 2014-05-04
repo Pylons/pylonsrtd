@@ -1,33 +1,32 @@
 .. _addons_and_dev_envs:
 
-Pyramid Add-On and Development Environment Guidelines
-=====================================================
+Add-on and Development Environment Guidelines
+=============================================
 
 Along with the "100% test coverage, 100% documentation" requirements of all
 packages that wish to be part of the Pylons Project, there are some more
-specific guidelines for creating Pyramid add-ons and "development
-environments". If you would like your add-on to be considered for inclusion
-into the `Pyramid Add-Ons
-<http://docs.pylonsproject.org/docs/pyramid.html#pyramid-add-ons>`_ or
-`Development Environments
-<http://docs.pylonsproject.org/docs/pyramid.html#pyramid-development-environment-documentation>`_
-sections of the Pylons Project web site, you should attempt to adhere to
-these guidelines.
+specific guidelines for creating add-ons and "development environments" for
+Pyramid. If you would like your add-on to be considered for inclusion into
+the :ref:`pyramid-add-ons` or :ref:`sample_pyramid_dev_env` sections of
+the Pylons Project web site, you should attempt to adhere to these guidelines.
 
 An "add-on" is a package which relies on Pyramid itself.  If your add-on does
 not rely on Pyramid, it's not an add-on (just a library), and it will not be
 listed on the add-ons page.
 
-A separate class of packages exist, which are not simply add-ons, but contain
-opinions usually taking shape in the form of "Paster templates", which set up
-a locally customized Pyramid application on behalf of users who like that set
-of opinions.  These are referred to as "development environments".
+"Development environments" are packages which use Pyramid as a core, but offer
+alternate services and scaffolding.  Each development environment presents a
+set of opinions and a "personality" to its users.  Although users of a
+development environment can still use all of the services offered by the
+Pyramid core, they are usually guided to a more focused set of opinions
+offered by the development environment itself.  Development environments
+often have dependencies beyond those of the Pyramid core.
 
 Below, we talk about what makes a good add-on and what makes a good
 development environment.
 
-Contributing Addons
-----------------------
+Contributing Add-ons
+--------------------
 Pyramid provides a repository that allows everyone to share add-ons.
 
 Please refer to the `community docs <https://github.com/pyramid-collective/pyramid-collective.github.com>`_
@@ -44,7 +43,7 @@ or the name you want has already been taken and you can't think of another
 name related to functionality, use a codename, e.g. ``pyramid_postoffice``.
 
 If your package provides "configuration" functionality, you will be tempted
-to create your own framework to do the configuration, ala::
+to create your own framework to do the configuration, like the following::
 
     class MyConfigurationExtender(object):
         def __init__(self, config):
@@ -57,9 +56,7 @@ to create your own framework to do the configuration, ala::
     extender.doit(1, 2)
 
 Instead of doing so, use the ``add_directive`` method of a configurator as
-documented at
-http://docs.pylonsproject.org/projects/pyramid/1.0/narr/advconfig.html#adding-methods-to-the-configurator-via-add-directive
-::
+documented at :ref:`Adding Methods to the Configurator via add_directive <pyramid:add_directive>`::
 
     def doit(config, a, b):
         config.somedirective(a, b)
@@ -68,9 +65,8 @@ http://docs.pylonsproject.org/projects/pyramid/1.0/narr/advconfig.html#adding-me
 
 If your add-on wants to provide some default behavior, provide an
 ``includeme`` method in your add-on's ``__init__.py``, so
-``config.include('pyramid_foo')`` will pick it up.  See `Including
-Configuration From External Sources
-<http://docs.pylonsproject.org/projects/pyramid/1.0/narr/advconfig.html#including-configuration-from-external-sources>`_.
+``config.include('pyramid_foo')`` will pick it up.  See :ref:`Including
+Configuration From External Sources <pyramid:including_configuration>`.
 
 Making Good Development Environments
 ------------------------------------
