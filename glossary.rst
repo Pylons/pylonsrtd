@@ -7,7 +7,7 @@ Glossary
    :sorted:
 
    Pylons Project
-       The main Pylons Project website
+       The main `Pylons Project <http://www.pylonsproject.org/>`_ website.
 
    Pyramid
        A `web framework 
