@@ -6,15 +6,15 @@ How does "The Pylons Project" relate to Pylons-the-web-framework?
 
 The Pylons Project was founded by the people behind the Pylons web framework
 to develop web application framework technology in Python. Rather than
-focusing on a single web framework, the Pylons Project will develop a
-collection of related technologies.
+focusing on a single web framework, the Pylons Project develops a collection
+of related technologies.
 
-The first package from the Pylons Project will be the Pyramid web framework.
-Other packages will be added to the collection over time, including
-higher-level components, applications and other frameworks which rely
-on a particular persistence mechanism (Pyramid does not). Ben Bangert, the
-Pylons web framework project lead, is already aiming to develop layers above
-the core web framework.
+The first package from the Pylons Project is the Pyramid web framework. Other
+packages will be added to the collection over time, including higher-level
+components, applications, and other frameworks which rely on a particular
+persistence mechanism (Pyramid does not). Ben Bangert, the Pylons web
+framework project lead, is already aiming to develop layers above the core web
+framework.
 
 "The Pylons Project" was chosen to reflect the shared core ethos with the
 Pylons web framework: an overall effort combining the best parts from
@@ -25,12 +25,12 @@ Why not just continue developing the Pylons 1.0 code-base?
 
 Unfortunately, the Pylons 1.0 code-base has hit a point of diminishing returns
 in flexibility and extendability. Due to the use of `sub-classing
-<http://be.groovie.org/post/1347858988/why-extending-through-subclassing-a-frameworks>`_
-, extensive, sometimes confusing, use of Stacked Object Proxy globals, and
-issues with configuration organization, attempts to re-factor or re-design the
+<http://be.groovie.org/post/1347858988/why-extending-through-subclassing-a-frameworks>`_,
+extensive and sometimes confusing use of Stacked Object Proxy globals, and
+issues with configuration organization, attempts to refactor or redesign the
 existing ``pylons`` core weren't working out.
 
-Over the course of several months, serious attempts were made to re-write
+Over the course of several months, serious attempts were made to rewrite
 sections of the ``pylons`` core. After realizing that Pylons users would have
 to put in extensive effort to port their existing applications, and that
 Pylons 2 was looking more and more like ``repoze.bfg``, continued development
@@ -47,18 +47,18 @@ What does the Pylons Project mean for Pylons-the-web-framework?
 
 The Pylons web framework 1.x line will continue to be maintained, though not
 enhanced. We will provide a package that allows Pylons 1.x applications and
-Pyramid applications to run in the same interpreter. The future of
-Pylon-style web application development is Pyramid.  See also the FAQ,
+Pyramid applications to run in the same interpreter. The future of Pylon-style
+web application development is Pyramid.  See also the FAQ,
 `Should I port my Pylons 1.0 project to Pyramid? <http://www.pylonsproject.org/projects/pyramid/faq>`_.
 
 What does the Pylons Project mean for repoze.bfg?
 -------------------------------------------------
 
 The Pyramid codebase is derived almost entirely from ``repoze.bfg``. Some
-changes have been made for the sake of Pylons compatibility, but those
-used to development with ``repoze.bfg`` will find Pyramid very familiar. By
-merging ``repoze.bfg`` with the philosophically-similar Pylons framework,
-both gain a dramatically expanded audience.
+changes have been made for the sake of Pylons compatibility, but those used to
+development with ``repoze.bfg`` will find Pyramid very familiar. By merging
+``repoze.bfg`` with the philosophically-similar Pylons framework, both gain a
+dramatically expanded audience.
 
 What does this mean for the Repoze project?
 -------------------------------------------
@@ -70,12 +70,12 @@ its own web framework hindered this goal.
 Why should I care about The Pylons Project?
 -------------------------------------------
 
-This really is a good question. We hope that people are attracted at
-first by the spirit of the thing. It takes humility to sacrifice a
-little sovereignty and work together. The opposite, forking or splintering
-of projects, is much more common in the open source world.  We feel there is a
-limited amount of oxygen in the space of "top-tier Python web frameworks" and
-we don't do the Python community a service by over-crowding.
+This really is a good question. We hope that people are attracted at first by
+the spirit of the thing. It takes humility to sacrifice a little sovereignty
+and work together. The opposite—forking or splintering of projects—is much
+more common in the open source world.  We feel there is a limited amount of
+oxygen in the space of "top-tier Python web frameworks" and we don't do the
+Python community a service by over-crowding.
 
 We are a group of project leaders with experience going back to the start of
 Python web frameworks.  We aim to bring fresh ideas to classic problems.  We
@@ -94,12 +94,11 @@ for later "batteries-included" projects, should retain these qualities.
 What do you mean by "Friendly"?
 -------------------------------
 
-All of us have been around the block a few times. We've seen good
-communities and bad communities, effective communities and
-dysfunctional communities, arrogant ones and irreverant ones. We
-pride ourselves on constructive listening, telling the truth even when
-it makes us look bad, admitting when we're wrong, and attracting lots of
-people who actually like to help.
+All of us have been around the block a few times. We've seen good communities
+and bad communities, effective communities and dysfunctional communities,
+arrogant ones and irreverent ones. We pride ourselves on constructive
+listening, telling the truth even when it makes us look bad, admitting when
+we're wrong, and attracting lots of people who actually like to help.
 
 What does the Pylons Project mean for Zope and Plone?
 -----------------------------------------------------
@@ -125,8 +124,13 @@ need, keep an eye on what we're doing.
 How do I participate?
 ---------------------
 
-Join the Pylons-discuss and/or Pylons-dev maillists on google groups,
-or join the #pylons IRC channel on freenode.net.
+Development questions related to projects under the Pylons Project can be
+discussed on the `pylons-discuss mail list
+<http://groups.google.com/group/pylons-discuss/>`_.
+
+On IRC, developers are generally available on the ``#pylons`` channel
+on the `Freenode IRC Network <http://freenode.net/>`_.  Each project may have
+its own channel, too.
 
 Where is the code?
 ------------------
