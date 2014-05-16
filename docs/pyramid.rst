@@ -100,6 +100,13 @@ Pyramid supports extensibility through add-ons.  The following add-ons are
 officially endorsed by the Pylons Project. Documentation for each add-on is
 hosted at its respective name under the Pylons Project.
 
+* `pyramid_chameleon </projects/pyramid_chameleon/en/latest/>`_: Chameleon
+  templating bindings for Pyramid.
+
+  - Maintained by: Chris McDonough
+
+  - Version Control: https://github.com/Pylons/pyramid_chameleon
+
 * `pyramid_debugtoolbar </projects/pyramid_debugtoolbar/en/latest/>`_, an interactive
   HTML debug toolbar for Pyramid.
 
@@ -156,6 +163,13 @@ hosted at its respective name under the Pylons Project.
 
   - Version Control: https://github.com/Pylons/pyramid_mailer
 
+* `pyramid_mako </projects/pyramid_mako/en/latest/>`_: Mako templating
+  bindings for Pyramid.
+
+  - Maintained by: Bert JW Regeer
+
+  - Version Control: https://github.com/Pylons/pyramid_mako
+
 * `pyramid_rpc </projects/pyramid_rpc/en/latest/>`_: RPC service add-on for
   Pyramid, supports XML-RPC in a more extensible manner than `pyramid_xmlrpc`
   with support for JSON-RPC and AMF.
@@ -198,20 +212,6 @@ hosted at its respective name under the Pylons Project.
   - Mantained by: Chris McDonough, Chris Rossi
 
   - Version Control:  https://github.com/Pylons/pyramid_zodbconn
-
-* `pyramid_mako </projects/pyramid_mako/en/latest/>`_: Mako templating
-  bindings for Pyramid.
-
-  - Maintained by: Bert JW Regeer
-
-  - Version Control: https://github.com/Pylons/pyramid_mako
-
-* `pyramid_chameleon </projects/pyramid_chameleon/en/latest/>`_: Chameleon
-  templating bindings for Pyramid.
-
-  - Maintained by: Chris McDonough
-
-  - Version Control: https://github.com/Pylons/pyramid_chameleon
 
 Unsupported Add-Ons
 +++++++++++++++++++
