@@ -100,77 +100,77 @@ Pyramid supports extensibility through add-ons.  The following add-ons are
 officially endorsed by the Pylons Project. Documentation for each add-on is
 hosted at its respective name under the Pylons Project.
 
-* `pyramid_chameleon </projects/pyramid_chameleon/en/latest/>`_: Chameleon
+* `pyramid_chameleon </projects/pyramid-chameleon/en/latest/>`_: Chameleon
   templating bindings for Pyramid.
 
   - Maintained by: Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_chameleon
 
-* `pyramid_debugtoolbar </projects/pyramid_debugtoolbar/en/latest/>`_, an interactive
+* `pyramid_debugtoolbar </projects/pyramid-debugtoolbar/en/latest/>`_, an interactive
   HTML debug toolbar for Pyramid.
 
   - Maintained by:  Chris McDonough, Blaise Laflamme
 
   - Version Control: https://github.com/Pylons/pyramid_debugtoolbar
 
-* `pyramid_exclog </projects/pyramid_exclog/en/latest/>`_, a package which logs
+* `pyramid_exclog </projects/pyramid-exclog/en/latest/>`_, a package which logs
   exceptions from Pyramid applications.
 
   - Maintained by:  Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_exclog
 
-* `pyramid_handlers </projects/pyramid_handlers/en/latest/>`_: analogue of
+* `pyramid_handlers </projects/pyramid-handlers/en/latest/>`_: analogue of
   Pylons-style "controllers" for Pyramid.
 
   - Maintained by: Ben Bangert, Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_handlers
 
-* `pyramid_jinja2 </projects/pyramid_jinja2/en/latest/>`_: `Jinja2
+* `pyramid_jinja2 </projects/pyramid-jinja2/en/latest/>`_: `Jinja2
   <http://jinja.pocoo.org/>`_ template renderer for Pyramid
 
   - Maintained by: Domen Kožar
 
   - Version Control: https://github.com/Pylons/pyramid_jinja2
 
-* `pyramid_jqm </projects/pyramid_jqm/en/latest/>`_, scaffolding for developing
+* `pyramid_jqm </projects/pyramid-jqm/en/latest/>`_, scaffolding for developing
   jQuery Mobile apps with Pyramid.
 
   - Maintained by:  Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_jqm
 
-* `pyramid_layout </projects/pyramid_layout/en/latest/>`_: Pyramid add-on 
+* `pyramid_layout </projects/pyramid-layout/en/latest/>`_: Pyramid add-on
   for managing UI layouts.
 
   - Maintained by: Chris Rossi, Paul Everitt, Blaise Laflamme
 
   - Version Control: https://github.com/Pylons/pyramid_layout
 
-* `pyramid_ldap </projects/pyramid_ldap/en/latest/>`_, an LDAP authentication
+* `pyramid_ldap </projects/pyramid-ldap/en/latest/>`_, an LDAP authentication
   policy for Pyramid.
 
   - Maintained by:  Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_ldap
 
-* `pyramid_mailer </projects/pyramid_mailer/en/latest/>`_: a package for the
+* `pyramid_mailer </projects/pyramid-mailer/en/latest/>`_: a package for the
   Pyramid framework to take the pain out of sending emails.
 
   - Maintained by:  Dan Jacobs, Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_mailer
 
-* `pyramid_mako </projects/pyramid_mako/en/latest/>`_: Mako templating
+* `pyramid_mako </projects/pyramid-mako/en/latest/>`_: Mako templating
   bindings for Pyramid.
 
   - Maintained by: Bert JW Regeer
 
   - Version Control: https://github.com/Pylons/pyramid_mako
 
-* `pyramid_rpc </projects/pyramid_rpc/en/latest/>`_: RPC service add-on for
+* `pyramid_rpc </projects/pyramid-rpc/en/latest/>`_: RPC service add-on for
   Pyramid, supports XML-RPC in a more extensible manner than `pyramid_xmlrpc`
   with support for JSON-RPC and AMF.
 
@@ -178,35 +178,35 @@ hosted at its respective name under the Pylons Project.
 
   - Version Control: https://github.com/Pylons/pyramid_rpc
 
-* `pyramid_tm </projects/pyramid_tm/en/latest/>`_: Centralized transaction 
+* `pyramid_tm </projects/pyramid-tm/en/latest/>`_: Centralized transaction
   management for Pyramid applications (without middleware).
 
   - Maintained by: Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_tm
 
-* `pyramid_who </projects/pyramid_who/en/latest/>`_: Authentication policy for 
+* `pyramid_who </projects/pyramid-who/en/latest/>`_: Authentication policy for
   pyramid using repoze.who 2.0 API.
 
   - Maintained by: Chris McDonough, Tres Seaver
 
   - Version Control: https://github.com/Pylons/pyramid_who
 
-* `pyramid_xmlrpc </projects/pyramid_xmlrpc/en/latest/>`_: XML-RPC add-on for
+* `pyramid_xmlrpc </projects/pyramid-xmlrpc/en/latest/>`_: XML-RPC add-on for
   Pyramid
 
   - Maintained by: Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_xmlrpc
 
-* `pyramid_zcml </projects/pyramid_zcml/en/latest/>`_: Zope Configuration Markup
+* `pyramid_zcml </projects/pyramid-zcml/en/latest/>`_: Zope Configuration Markup
   Language configuration support for Pyramid.
 
   - Maintained by: Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_zcml
 
-* `pyramid_zodbconn </projects/pyramid_zodbconn/en/latest/>`_: ZODB Database
+* `pyramid_zodbconn </projects/pyramid-zodbconn/en/latest/>`_: ZODB Database
   connection management for Pyramid.
 
   - Mantained by: Chris McDonough, Chris Rossi
@@ -219,7 +219,7 @@ Unsupported Add-Ons
 These are libraries which used to be officially supported by the Pylons 
 Project, but have since become unsupported.
 
-* `pyramid_beaker </projects/pyramid_beaker/en/latest/>`_: Beaker session backend
+* `pyramid_beaker </projects/pyramid-beaker/en/latest/>`_: Beaker session backend
   plug-in.
 
   - Maintained by: Ben Bangert, Chris McDonough
