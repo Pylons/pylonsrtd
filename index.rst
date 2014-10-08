@@ -20,8 +20,8 @@ The following are documentation of projects under the Pylons Project.
     the debug toolbar, mailer, and transaction manager.
 
 :ref:`Pylons Project Library Package Documentation <pylons-project-library-package-documentation>`
-    A list of several packages under the Pylons Project that are not Pyramid
-    Add-ons.
+    A list of packages under the Pylons Project that are useful outside
+    of Pyramid.
 
 :ref:`Pylons (the web framework) Documentation <the-pylons-project>`
     Documentation of Pylons (the web framework).
