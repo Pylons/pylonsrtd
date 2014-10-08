@@ -1,3 +1,5 @@
+.. _pyramid-documentation:
+
 Pyramid Documentation
 =====================
 
