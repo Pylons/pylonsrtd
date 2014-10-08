@@ -1,5 +1,7 @@
-Library Package Documentation
-=============================
+.. _pylons-project-library-package-documentation:
+
+Pylons Project Library Package Documentation
+============================================
 
 The following packages are hosted within the Pylons Project's GitHub
 repository structure, and are officially endorsed, but are not Pyramid

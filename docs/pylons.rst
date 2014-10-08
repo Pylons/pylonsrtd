@@ -1,3 +1,5 @@
+.. _the-pylons-project:
+
 Pylons (the web framework) Documentation
 ========================================
 
