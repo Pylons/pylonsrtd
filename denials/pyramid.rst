@@ -37,6 +37,9 @@ board rooms and chat rooms around the world.
 
 * The **Pyramid** developers do not have a giant, magic eye they use to spy on
   their enemies.
+  
+* **Pyramid** is not "doing something weird" to your code during application
+  initialization.
 
 We hope that these denials are sufficient to put to rest some of the wild
 speculation that has been circulating about the **Pyramid** project.  We're not
