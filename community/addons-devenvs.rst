@@ -77,7 +77,7 @@ create -t foo``), for the purposes of uniformity with other "development
 environment" packages, we offer some guidelines below.
 
 * It should not be named with a ``pyramid_`` prefix.  For example, instead
-  of ``pyramid_foo`` it should just be named ``foo``.  The ``pryamid_``
+  of ``pyramid_foo`` it should just be named ``foo``.  The ``pyramid_``
   prefix is best used for add-ons that plug some discrete functionality in
   to Pyramid, not for code that simply uses Pyramid as a base for a
   separate framework with its own "opinions".
