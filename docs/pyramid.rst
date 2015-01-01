@@ -304,6 +304,13 @@ often have dependencies beyond those of the Pyramid core.
 
   - Version Control: https://github.com/ptahproject/ptah
 
+`Ringo <http://ringo-dev.intevation.de>`_
+  Ringo is an extensible high-level web application framework with strength in
+  building form based management or administration software, providing ready
+  to use components often needed in web applications.
+
+  - Version Control: https://bitbucket.org/ti/ringo
+
 `Substance-D <http://substanced.net/>`_
   An application server built upon the Pyramid web framework. It provides a
   user interface for managing content as well as libraries and utilities which
