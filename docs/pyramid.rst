@@ -305,7 +305,7 @@ often have dependencies beyond those of the Pyramid core.
   - Version Control: https://github.com/ptahproject/ptah
 
 `Ringo <http://ringo-dev.intevation.de>`_
-  Ringo is a extensible high-level web application framework with strength in
+  Ringo is an extensible high-level web application framework with strength in
   building form based management or administration software, providing ready
   to use components often needed in web applications.
 
