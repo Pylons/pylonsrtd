@@ -30,7 +30,7 @@ Main Documentation
 ------------------
 
 Stable branch : version 1.5 (latest)
-+++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++
 
 * `Pyramid latest documentation </projects/pyramid/en/1.5-branch/>`_
   (`latest PDF
@@ -40,11 +40,11 @@ Stable branch : version 1.5 (latest)
   - narrative and API documentation for Pyramid's latest version, 1.5, the
   current stable release.
 
-Development branch : upcoming 1.6 (master)
-++++++++++++++++++++++++++++++++++++++++++
+Development branch : upcoming 1.6 (1.6-branch)
+++++++++++++++++++++++++++++++++++++++++++++++
 
-* `Pyramid development documentation </projects/pyramid/en/master/>`_ - narrative and API
-  documentation for Pyramid's unreleased in-development version.
+* `Pyramid development documentation </projects/pyramid/en/1.6-branch/>`_ -
+  narrative and API documentation for Pyramid's in-development version.
 
 .. _tutorials-cookbook:
 
