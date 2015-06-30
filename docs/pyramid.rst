@@ -299,10 +299,23 @@ often have dependencies beyond those of the Pyramid core.
 
   - Version Control: https://github.com/Kotti/Kotti
 
+`Nefertari <https://nefertari.readthedocs.org/>`_
+  Nefertari is a REST API framework for Pyramid that uses ElasticSearch for reads 
+  and either MongoDB or Postgres for writes. It provides an interface to ElasticSearch's
+  `Query String DSL <https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html>`_ for full text search.
+
+  - Version Control: https://github.com/brandicted/nefertari
+  
 `Ptah <https://github.com/ptahproject/ptah>`_
   Ptah is a fast, fun, open source high-level Python web development environment.
 
   - Version Control: https://github.com/ptahproject/ptah
+
+`Ramses <https://ramses.readthedocs.org/>`_
+  Ramses is a library that generates a RESTful API using `RAML <http://raml.org>`. 
+  It uses Pyramid and `Nefertari <https://nefertari.readthedocs.org/>` which provides ElasticSearch-powered views.
+
+  - Version Control: https://github.com/brandicted/ramses
 
 `Ringo <http://www.ringo-framework.org>`_
   Ringo is an extensible high-level web application framework with strength in
