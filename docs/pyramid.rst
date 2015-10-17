@@ -16,13 +16,13 @@ speed right away:
 
 * `Pyramid Frequently Asked Questions <http://www.pylonsproject.org/projects/pyramid/faq>`_.
 
-* To get a detailed experience of creating a Pyramid web application, try the :ref:`Quick
-  Tutorial for Pyramid <pyramid:quick_tutorial>`.
+* To get a detailed experience of creating a Pyramid web application, try the
+  :ref:`Quick Tutorial for Pyramid <pyramid:quick_tutorial>`.
 
 * Like learning by example? Check out to the official :ref:`Pyramid Tutorials
-  <pyramid:html_tutorials>` as well as the community-contributed
-  :ref:`Pyramid Tutorials <tutorials:pyramid-tutorials>` and :ref:`Pyramid
-  Cookbook Recipes <cookbook:pyramid-cookbook>`.
+  <pyramid:html_tutorials>` as well as the community-contributed :ref:`Pyramid
+  Tutorials <tutorials:pyramid-tutorials>` and :ref:`Pyramid Cookbook Recipes
+  <cookbook:pyramid-cookbook>`.
 
 * Need help?  See :ref:`support-desc`.
 
@@ -66,29 +66,29 @@ Tutorials and Cookbook Recipes
 Previous versions
 +++++++++++++++++
 * `Pyramid documentation 1.4 </projects/pyramid/en/1.4-branch/>`_ (`1.4 PDF
-  <http://media.readthedocs.org/pdf/pyramid/1.4-branch/pyramid.pdf>`_) (`1.4 Epub
-  <http://media.readthedocs.org/epub/pyramid/1.4-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's 1.4 version.
+  <http://media.readthedocs.org/pdf/pyramid/1.4-branch/pyramid.pdf>`_) (`1.4
+  Epub <http://media.readthedocs.org/epub/pyramid/1.4-branch/pyramid.epub>`_) -
+  narrative and API documentation for Pyramid's 1.4 version.
 
 * `Pyramid documentation 1.3 </projects/pyramid/en/1.3-branch/>`_ (`1.3 PDF
-  <http://media.readthedocs.org/pdf/pyramid/1.3-branch/pyramid.pdf>`_) (`1.3 Epub
-  <http://media.readthedocs.org/epub/pyramid/1.3-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's 1.3 version.
+  <http://media.readthedocs.org/pdf/pyramid/1.3-branch/pyramid.pdf>`_) (`1.3
+  Epub <http://media.readthedocs.org/epub/pyramid/1.3-branch/pyramid.epub>`_) -
+  narrative and API documentation for Pyramid's 1.3 version.
 
 * `Pyramid documentation 1.2 </projects/pyramid/en/1.2-branch/>`_ (`1.2 PDF
-  <http://media.readthedocs.org/pdf/pyramid/1.2-branch/pyramid.pdf>`_) (`1.2 Epub
-  <http://media.readthedocs.org/epub/pyramid/1.2-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's 1.2 version.
+  <http://media.readthedocs.org/pdf/pyramid/1.2-branch/pyramid.pdf>`_) (`1.2
+  Epub <http://media.readthedocs.org/epub/pyramid/1.2-branch/pyramid.epub>`_) -
+  narrative and API documentation for Pyramid's 1.2 version.
 
 * `Pyramid documentation 1.1 </projects/pyramid/en/1.1-branch/>`_ (`1.1 PDF
-  <http://media.readthedocs.org/pdf/pyramid/1.1-branch/pyramid.pdf>`_) (`1.1 Epub
-  <http://media.readthedocs.org/epub/pyramid/1.1-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's 1.1 version.
+  <http://media.readthedocs.org/pdf/pyramid/1.1-branch/pyramid.pdf>`_) (`1.1
+  Epub <http://media.readthedocs.org/epub/pyramid/1.1-branch/pyramid.epub>`_) -
+  narrative and API documentation for Pyramid's 1.1 version.
 
 * `Pyramid documentation 1.0 </projects/pyramid/en/1.0-branch/>`_ (`1.0 PDF
-  <http://media.readthedocs.org/pdf/pyramid/1.0-branch/pyramid.pdf>`_) (`1.0 Epub
-  <http://media.readthedocs.org/epub/pyramid/1.0-branch/pyramid.epub>`_) - narrative and API
-  documentation for Pyramid's 1.0 version.
+  <http://media.readthedocs.org/pdf/pyramid/1.0-branch/pyramid.pdf>`_) (`1.0
+  Epub <http://media.readthedocs.org/epub/pyramid/1.0-branch/pyramid.epub>`_) -
+  narrative and API documentation for Pyramid's 1.0 version.
 
 .. _pyramid-add-ons:
 
@@ -109,8 +109,8 @@ hosted at its respective name under the Pylons Project.
 
   - Version Control: https://github.com/Pylons/pyramid_chameleon
 
-* `pyramid_debugtoolbar </projects/pyramid-debugtoolbar/en/latest/>`_, an interactive
-  HTML debug toolbar for Pyramid.
+* `pyramid_debugtoolbar </projects/pyramid-debugtoolbar/en/latest/>`_, an
+  interactive HTML debug toolbar for Pyramid.
 
   - Maintained by:  Chris McDonough, Blaise Laflamme
 
@@ -144,8 +144,8 @@ hosted at its respective name under the Pylons Project.
 
   - Version Control: https://github.com/Pylons/pyramid_jqm
 
-* `pyramid_layout </projects/pyramid-layout/en/latest/>`_: Pyramid add-on
-  for managing UI layouts.
+* `pyramid_layout </projects/pyramid-layout/en/latest/>`_: Pyramid add-on for
+  managing UI layouts.
 
   - Maintained by: Chris Rossi, Paul Everitt, Blaise Laflamme
 
@@ -165,8 +165,8 @@ hosted at its respective name under the Pylons Project.
 
   - Version Control: https://github.com/Pylons/pyramid_mailer
 
-* `pyramid_mako </projects/pyramid-mako/en/latest/>`_: Mako templating
-  bindings for Pyramid.
+* `pyramid_mako </projects/pyramid-mako/en/latest/>`_: Mako templating bindings
+  for Pyramid.
 
   - Maintained by: Bert JW Regeer
 
@@ -201,8 +201,8 @@ hosted at its respective name under the Pylons Project.
 
   - Version Control: https://github.com/Pylons/pyramid_xmlrpc
 
-* `pyramid_zcml </projects/pyramid-zcml/en/latest/>`_: Zope Configuration Markup
-  Language configuration support for Pyramid.
+* `pyramid_zcml </projects/pyramid-zcml/en/latest/>`_: Zope Configuration
+  Markup Language configuration support for Pyramid.
 
   - Maintained by: Chris McDonough
 
@@ -218,17 +218,18 @@ hosted at its respective name under the Pylons Project.
 Unsupported Add-Ons
 +++++++++++++++++++
 
-These are libraries which used to be officially supported by the Pylons 
+These are libraries which used to be officially supported by the Pylons
 Project, but have since become unsupported.
 
-* `pyramid_beaker </projects/pyramid-beaker/en/latest/>`_: Beaker session backend
-  plug-in.
+* `pyramid_beaker </projects/pyramid-beaker/en/latest/>`_: Beaker session
+  backend plug-in.
 
   - Maintained by: Ben Bangert, Chris McDonough
 
   - Version Control: https://github.com/Pylons/pyramid_beaker
 
-  - Became unsupported October 2013 because Beaker itself is no longer maintained.
+  - Became unsupported October 2013 because Beaker itself is no longer
+    maintained.
 
 .. _sample_pyramid_apps:
 
@@ -236,9 +237,10 @@ Sample Pyramid Applications
 ---------------------------
 
 `cluegun <https://github.com/Pylons/cluegun>`_
-  A simple pastebin application based on Rocky Burt's `ClueBin <http://pypi.python.org/pypi/ClueBin/0.2.3>`_.
-  It demonstrates form processing, security, and the use of :term:`ZODB`
-  within a :term:`Pyramid` application.
+  A simple pastebin application based on Rocky Burt's `ClueBin
+  <http://pypi.python.org/pypi/ClueBin/0.2.3>`_. It demonstrates form
+  processing, security, and the use of :term:`ZODB` within a :term:`Pyramid`
+  application.
 
   - Version Control: https://github.com/Pylons/cluegun
 
@@ -275,15 +277,15 @@ Sample Pyramid Development Environments
 alternate services and scaffolding.  Each development environment presents a
 set of opinions and a "personality" to its users.  Although users of a
 development environment can still use all of the services offered by the
-Pyramid core, they are usually guided to a more focused set of opinions
-offered by the development environment itself.  Development environments
-often have dependencies beyond those of the Pyramid core.
+Pyramid core, they are usually guided to a more focused set of opinions offered
+by the development environment itself.  Development environments often have
+dependencies beyond those of the Pyramid core.
 
 `Akhet <http://docs.pylonsproject.org/projects/akhet/en/latest/>`_
   A Pyramid library and demo application with a Pylons-like feel. Its most
-  known for its former application scaffold, which helped users transition
-  from Pylons and those preferring a more Pylons-like API. The scaffold has
-  been retired but the demo plays a similar role.
+  known for its former application scaffold, which helped users transition from
+  Pylons and those preferring a more Pylons-like API. The scaffold has been
+  retired but the demo plays a similar role.
 
 `Khufu Project <http://khufuproject.github.com/>`_
   Khufu is an application scaffolding for Pyramid that provides an environment
@@ -300,27 +302,32 @@ often have dependencies beyond those of the Pyramid core.
   - Version Control: https://github.com/Kotti/Kotti
 
 `Nefertari <https://nefertari.readthedocs.org/>`_
-  Nefertari is a REST API framework for Pyramid that uses ElasticSearch for reads 
-  and either MongoDB or Postgres for writes. It provides an interface to ElasticSearch's
-  `Query String DSL <https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html>`_ for full text search.
+  Nefertari is a REST API framework for Pyramid that uses ElasticSearch for
+  reads and either MongoDB or Postgres for writes. It provides an interface to
+  ElasticSearch's `Query String DSL
+  <https://www.elastic.co/guide/en/elasticsearch/reference/1.x/query-dsl-queries.html>`_
+  for full text search.
 
   - Version Control: https://github.com/brandicted/nefertari
   
 `Ptah <https://github.com/ptahproject/ptah>`_
-  Ptah is a fast, fun, open source high-level Python web development environment.
+  Ptah is a fast, fun, open source high-level Python web development
+  environment.
 
   - Version Control: https://github.com/ptahproject/ptah
 
 `Ramses <https://ramses.readthedocs.org/>`_
-  Ramses is a library that generates a RESTful API using `RAML <http://raml.org>`_.
-  It uses Pyramid and `Nefertari <https://nefertari.readthedocs.org/>`_ which provides ElasticSearch-powered views.
+  Ramses is a library that generates a RESTful API using `RAML
+  <http://raml.org>`_. It uses Pyramid and `Nefertari
+  <https://nefertari.readthedocs.org/>`_ which provides ElasticSearch-powered
+  views.
 
   - Version Control: https://github.com/brandicted/ramses
 
 `Ringo <http://www.ringo-framework.org>`_
   Ringo is an extensible high-level web application framework with strength in
-  building form based management or administration software, providing ready
-  to use components often needed in web applications.
+  building form based management or administration software, providing read to
+  use components often needed in web applications.
 
   - Version Control: https://bitbucket.org/ti/ringo
 
