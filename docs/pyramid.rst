@@ -312,8 +312,8 @@ often have dependencies beyond those of the Pyramid core.
   - Version Control: https://github.com/ptahproject/ptah
 
 `Ramses <https://ramses.readthedocs.org/>`_
-  Ramses is a library that generates a RESTful API using `RAML <http://raml.org>`. 
-  It uses Pyramid and `Nefertari <https://nefertari.readthedocs.org/>` which provides ElasticSearch-powered views.
+  Ramses is a library that generates a RESTful API using `RAML <http://raml.org>`_.
+  It uses Pyramid and `Nefertari <https://nefertari.readthedocs.org/>`_ which provides ElasticSearch-powered views.
 
   - Version Control: https://github.com/brandicted/ramses
 
