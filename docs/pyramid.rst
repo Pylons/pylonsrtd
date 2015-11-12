@@ -309,7 +309,7 @@ dependencies beyond those of the Pyramid core.
   for full text search.
 
   - Version Control: https://github.com/brandicted/nefertari
-  
+
 `Ptah <https://github.com/ptahproject/ptah>`_
   Ptah is a fast, fun, open source high-level Python web development
   environment.
@@ -342,3 +342,10 @@ dependencies beyond those of the Pyramid core.
   A bundled application framework for data driven Pyramid project development.
 
   - Version Control: https://github.com/sernst/Ziggurat
+
+`pyramid_sacrud <https://github.com/ITCase/pyramid_sacrud>`_
+  Pyramid CRUD interface. It will solve your problem of WEB admin for Pyramid.
+  Unlike classical CRUD, pyramid_sacrud allows override and flexibly customize
+  interface. (that is closer to django.contrib.admin)
+
+  - Version Control: https://github.com/ITCase/pyramid_sacrud
