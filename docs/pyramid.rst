@@ -310,11 +310,18 @@ dependencies beyond those of the Pyramid core.
 
   - Version Control: https://github.com/brandicted/nefertari
 
-`Ptah <https://github.com/ptahproject/ptah>`_
+`Ptah <http://ptahproject.readthedocs.org/en/latest/>`_
   Ptah is a fast, fun, open source high-level Python web development
   environment.
 
   - Version Control: https://github.com/ptahproject/ptah
+
+`pyramid_sacrud <http://pyramid-sacrud.readthedocs.org/en/latest/>`_
+  Pyramid CRUD interface. Provides an administration web interface for Pyramid.
+  Unlike classic CRUD, pyramid_sacrud allows overrides and flexibility to
+  customize your interface, similar to django.contrib.admin.
+
+  - Version Control: https://github.com/ITCase/pyramid_sacrud
 
 `Ramses <https://ramses.readthedocs.org/>`_
   Ramses is a library that generates a RESTful API using `RAML
@@ -342,10 +349,3 @@ dependencies beyond those of the Pyramid core.
   A bundled application framework for data driven Pyramid project development.
 
   - Version Control: https://github.com/sernst/Ziggurat
-
-`pyramid_sacrud <https://github.com/ITCase/pyramid_sacrud>`_
-  Pyramid CRUD interface. It will solve your problem of WEB admin for Pyramid.
-  Unlike classical CRUD, pyramid_sacrud allows override and flexibly customize
-  interface. (that is closer to django.contrib.admin)
-
-  - Version Control: https://github.com/ITCase/pyramid_sacrud
