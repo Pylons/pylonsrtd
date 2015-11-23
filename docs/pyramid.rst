@@ -172,6 +172,15 @@ hosted at its respective name under the Pylons Project.
 
   - Version Control: https://github.com/Pylons/pyramid_mako
 
+* `pyramid_nacl_session </projects/pyramid-nacl-session/en/latest/>`_: defines
+  an encrypting, pickle-based cookie serializer, using `PyNaCl
+  <http://pynacl.readthedocs.org/en/latest/secret/>`_ to generate the symmetric
+  encryption for the cookie state.
+
+  - Maintained by: Tres Seaver
+
+  - Version Control: https://github.com/Pylons/pyramid_nacl_session
+
 * `pyramid_rpc </projects/pyramid-rpc/en/latest/>`_: RPC service add-on for
   Pyramid, supports XML-RPC in a more extensible manner than `pyramid_xmlrpc`
   with support for JSON-RPC and AMF.
