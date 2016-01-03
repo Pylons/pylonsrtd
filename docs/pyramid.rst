@@ -40,10 +40,10 @@ Stable branch : version 1.6 (latest)
   - narrative and API documentation for Pyramid's latest version, 1.6, the
   current stable release.
 
-Development branch : upcoming 1.7 (1.7-branch)
-++++++++++++++++++++++++++++++++++++++++++++++
+Development branch : upcoming 1.7 (master)
+++++++++++++++++++++++++++++++++++++++++++
 
-* `Pyramid development documentation </projects/pyramid/en/1.7-branch/>`_ -
+* `Pyramid development documentation </projects/pyramid/en/master/>`_ -
   narrative and API documentation for Pyramid's in-development version.
 
 .. _tutorials-cookbook:
