@@ -29,21 +29,21 @@ speed right away:
 Main Documentation
 ------------------
 
-Stable branch : version 1.5 (latest)
+Stable branch : version 1.6 (latest)
 ++++++++++++++++++++++++++++++++++++
 
-* `Pyramid latest documentation </projects/pyramid/en/1.5-branch/>`_
+* `Pyramid latest documentation </projects/pyramid/en/1.6-branch/>`_
   (`latest PDF
   <http://media.readthedocs.org/pdf/pyramid/latest/pyramid.pdf>`_)
   (`latest Epub <http://media.readthedocs.org/epub/pyramid/latest/pyramid
   .epub>`_)
-  - narrative and API documentation for Pyramid's latest version, 1.5, the
+  - narrative and API documentation for Pyramid's latest version, 1.6, the
   current stable release.
 
-Development branch : upcoming 1.6 (1.6-branch)
+Development branch : upcoming 1.7 (1.7-branch)
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-* `Pyramid development documentation </projects/pyramid/en/1.6-branch/>`_ -
+* `Pyramid development documentation </projects/pyramid/en/1.7-branch/>`_ -
   narrative and API documentation for Pyramid's in-development version.
 
 .. _tutorials-cookbook:
@@ -65,6 +65,11 @@ Tutorials and Cookbook Recipes
 
 Previous versions
 +++++++++++++++++
+* `Pyramid documentation 1.5 </projects/pyramid/en/1.5-branch/>`_ (`1.5 PDF
+  <http://media.readthedocs.org/pdf/pyramid/1.5-branch/pyramid.pdf>`_) (`1.5
+  Epub <http://media.readthedocs.org/epub/pyramid/1.5-branch/pyramid.epub>`_) -
+  narrative and API documentation for Pyramid's 1.5 version.
+
 * `Pyramid documentation 1.4 </projects/pyramid/en/1.4-branch/>`_ (`1.4 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.4-branch/pyramid.pdf>`_) (`1.4
   Epub <http://media.readthedocs.org/epub/pyramid/1.4-branch/pyramid.epub>`_) -
