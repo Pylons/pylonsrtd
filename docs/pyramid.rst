@@ -258,6 +258,13 @@ Sample Pyramid Applications
 
   - Version Control: https://github.com/Pylons/cluegun
 
+`Cornice <http://cornice.readthedocs.org/en/latest/>`_
+  Cornice provides helpers to build and document REST-ish web services with
+  Pyramid, with decent default behaviors. It takes care of following the HTTP
+  specification in an automated way where possible.
+
+  - Version Control: https://github.com/mozilla-services/cornice
+
 `KARL <http://karlproject.org>`_
   A moderately-sized application (roughly 80K lines of Python code) built on
   top of :term:`Pyramid`.  It is an open source web system for collaboration,
@@ -265,6 +272,12 @@ Sample Pyramid Applications
   for wikis, calendars, manuals, searching, tagging, commenting, and file
   uploads.  See the `KARL site <http://karlproject.org>`_ for download and
   installation details.
+
+`Kinto <http://kinto.readthedocs.org/en/latest/>`_
+  Store, Sync, Share, and Self-Host. Kinto is a lightweight JSON storage
+  service with synchronisation and sharing abilities.
+
+  - Version Control: https://github.com/Kinto/kinto
 
 `shootout <https://github.com/Pylons/shootout>`_
   An example "idea competition" application by Carlos de la Guardia and Lukasz
