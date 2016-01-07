@@ -287,6 +287,20 @@ Sample Pyramid Applications
 
   - Version Control: https://github.com/Pylons/shootout.git
 
+
+`SUMA <https://github.com/rach/suma>`_
+  Suma stands for Short URL Managment App. The role of Suma is to manage
+  external links and extract data from them. Suma is a small web service to
+  easily do the following:
+
+    - Creating short URL for external link within your application
+    - Extracting Title
+    - Capturing Screenshot from URL
+    - Blocking URLs
+    - Collecting clicks
+
+  - Version Control: https://github.com/rach/suma
+
 `virginia <https://github.com/Pylons/virginia>`_
   A very simple dynamic file rendering application.  It is willing to render
   structured text documents, HTML documents, and images from a filesystem
