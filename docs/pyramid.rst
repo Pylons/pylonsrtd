@@ -377,7 +377,7 @@ dependencies beyond those of the Pyramid core.
   building form based management or administration software, providing ready to
   use components often needed in web applications.
 
-  - Version Control: https://bitbucket.org/ti/ringo
+  - Version Control: https://github.com/ringo-framework/ringo
 
 `Substance-D <http://substanced.net/>`_
   An application server built upon the Pyramid web framework. It provides a
