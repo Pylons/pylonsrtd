@@ -374,10 +374,10 @@ dependencies beyond those of the Pyramid core.
 
 `Ringo <http://www.ringo-framework.org>`_
   Ringo is an extensible high-level web application framework with strength in
-  building form based management or administration software, providing read to
+  building form based management or administration software, providing ready to
   use components often needed in web applications.
 
-  - Version Control: https://bitbucket.org/ti/ringo
+  - Version Control: https://github.com/ringo-framework/ringo
 
 `Substance-D <http://substanced.net/>`_
   An application server built upon the Pyramid web framework. It provides a
