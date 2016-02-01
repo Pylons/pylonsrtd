@@ -49,12 +49,23 @@ add-ons.
 
   - Version Control: https://github.com/Pylons/venusian
 
-* `webhelpers </projects/webhelpers/en/latest/>`_, a library for python web
+* `WebHelpers </projects/webhelpers/en/latest/>`_, a library for python web
   helpers.
 
   - Maintained by:  Ben Bangert, Mike Orr
 
   - Version Control: https://bitbucket.org/bbangert/webhelpers
+
+* `WebHelpers2 <https://webhelpers2.readthedocs.org/en/latest/>`_ is the
+  successor to the widely-used WebHelpers utility functions. It narrows the
+  focus to a core set of utilities that are most widely used, feasible to port
+  to Python 3, and relevant to Pyramid and other current frameworks. It
+  renovates the popular HTML builder, and keeps most of the HTML tag helpers
+  and text-processing, number formatting, statistics, and date functions.
+
+  - Maintained by:  Ben Bangert, Mike Orr, Phillip Jenvey
+
+  - Version Control: https://github.com/mikeorr/WebHelpers2
 
 * `Waitress </projects/waitress/en/latest/>`_, WSGI server that runs under
   Python 2 and Python 3 on UNIX and Windows.
