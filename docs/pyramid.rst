@@ -360,9 +360,13 @@ dependencies beyond those of the Pyramid core.
 `pyramid_sacrud <http://pyramid-sacrud.readthedocs.org/en/latest/>`_
   Pyramid CRUD interface. Provides an administration web interface for Pyramid.
   Unlike classic CRUD, pyramid_sacrud allows overrides and flexibility to
-  customize your interface, similar to django.contrib.admin.
+  customize your interface, similar to django.contrib.admin but uses a
+  different backend to provide resources. `New Arcitecture
+  <http://pyramid-sacrud.readthedocs.org/en/latest/pages/contribute/architecture.html>`_
+  built on the resources and mechanism traversal, allows to use it in various
+  cases.
 
-  - Version Control: https://github.com/ITCase/pyramid_sacrud
+  - Version Control: https://github.com/sacrud/pyramid_sacrud
 
 `Ramses <https://ramses.readthedocs.org/>`_
   Ramses is a library that generates a RESTful API using `RAML
