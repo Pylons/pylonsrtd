@@ -361,7 +361,7 @@ dependencies beyond those of the Pyramid core.
   Pyramid CRUD interface. Provides an administration web interface for Pyramid.
   Unlike classic CRUD, pyramid_sacrud allows overrides and flexibility to
   customize your interface, similar to django.contrib.admin but uses a
-  different backend to provide resources. `New Arcitecture
+  different backend to provide resources. `New Architecture
   <http://pyramid-sacrud.readthedocs.org/en/latest/pages/contribute/architecture.html>`_
   built on the resources and mechanism traversal, allows to use it in various
   cases.
