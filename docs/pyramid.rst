@@ -40,7 +40,18 @@ Stable branch : version 1.6 (latest)
   - narrative and API documentation for Pyramid's latest version, 1.6, the
   current stable release.
 
-Development branch : upcoming 1.7 (master)
+Pre-release branch : version 1.7
+++++++++++++++++++++++++++++++++
+
+* `Pyramid documentation 1.7 </projects/pyramid/en/1.7-branch/>`_
+  (`1.7 PDF
+  <http://media.readthedocs.org/pdf/pyramid/1.7-branch/pyramid.pdf>`_)
+  (`latest Epub <http://media.readthedocs.org/epub/pyramid/1.7-branch/pyramid
+  .epub>`_)
+  - narrative and API documentation for Pyramid's pre-release version, 1.7,
+  in dev, alpha, or beta status.
+
+Development branch : upcoming 1.8 (master)
 ++++++++++++++++++++++++++++++++++++++++++
 
 * `Pyramid development documentation </projects/pyramid/en/master/>`_ -
