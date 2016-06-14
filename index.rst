@@ -14,10 +14,9 @@ The following are documentation of projects under the Pylons Project.
     as links to unofficial or community contributions to cookbook recipes, and
     sample Pyramid applications.
 
-:ref:`pyramid-add-ons`
-    A list of over a dozen Add-ons which extends Pyramid's functionality and
-    whose names begin with ``pyramid_``. Examples of Add-ons include templating,
-    the debug toolbar, mailer, and transaction manager.
+`Extending Pyramid <https://trypyramid.com/resources-extending-pyramid.html>`_
+    A filterable list official add-ons (supported by the Pylons Project),
+    popular add-ons from the community, and other web-related packages.
 
 :ref:`Pylons Project Library Package Documentation <pylons-project-library-package-documentation>`
     A list of packages under the Pylons Project that are useful outside
