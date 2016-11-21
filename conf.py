@@ -51,7 +51,7 @@ master_doc = 'index'
 # General substitutions.
 project = 'pylonsrtd'
 year = datetime.date.today().year
-copyright = '2011-{0} Agendaless Consulting <chrism@plope.com>'.format(year)
+copyright = '2011-{0} Agendaless Consulting'.format(year)
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
