@@ -17,9 +17,10 @@
 # make it absolute, like shown here.
 #sys.path.append(os.path.abspath('some/directory'))
 
-import sys
-import os
+# import sys
+# import os
 import datetime
+import pylons_sphinx_themes
 
 # General configuration
 # ---------------------
@@ -75,7 +76,7 @@ today_fmt = '%B %d, %Y'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_themes/README.rst']
+# exclude_patterns = ['_themes/README.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -101,23 +102,13 @@ exclude_patterns = ['_themes/README.rst']
 # Options for HTML output
 # -----------------------
 
-if 'sphinx-build' in ' '.join(sys.argv): # protect against dumb importers
-    from subprocess import call, Popen, PIPE
-
-    cwd = os.getcwd()
-    _themes = os.path.join(cwd, '_themes')
-    p = Popen('which git', shell=True, stdout=PIPE)
-    git = p.stdout.read().strip()
-    if not os.listdir(_themes):
-        call([git, 'submodule', '--init'])
-    else:
-        call([git, 'submodule', 'update'])
-
 # Add and use Pylons theme
-sys.path.append(os.path.abspath('_themes'))
-html_theme_path = ['_themes']
 html_theme = 'pylons'
-html_theme_options = dict(github_url='https://github.com/Pylons/pylonsrtd')
+html_theme_path = pylons_sphinx_themes.get_html_themes_path()
+html_theme_options = dict(
+    github_url='https://github.com/Pylons/pylonsrtd',
+    canonical_url='http://docs.pylonsproject.org/en/latest/',
+)
 
 # The style sheet to use for HTML and HTML Help pages. A file of that name
 # must exist either in Sphinx' static/ path, or in one of the custom paths
@@ -153,7 +144,7 @@ html_last_updated_fmt = '%b %d, %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
-#html_use_smartypants = True
+html_use_smartypants = False
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
