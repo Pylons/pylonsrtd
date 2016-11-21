@@ -10,54 +10,8 @@ Documentation Styling
 ---------------------
 
 Every project needs to have documentation built with `Sphinx
-<http://sphinx.pocoo.org/>`_ using the `Pylons Sphinx Theme
-<http://github.com/Pylons/pylons_sphinx_theme>`_ for consistency.
-
-To build documentation using the Pylons theme, add the following boilerplate
-near the top of your Sphinx ``conf.py``:
-
-.. code-block:: python
-
-    import os
-    import sys
-
-    # Add and use Pylons theme
-    # protect against dumb importers
-    if 'sphinx-build' in ' '.join(sys.argv): 
-        from subprocess import call, Popen, PIPE
-
-        p = Popen('which git', shell=True, stdout=PIPE)
-        git = p.stdout.read().strip()
-        cwd = os.getcwd()
-        _themes = os.path.join(cwd, '_themes')
-
-        if not os.path.isdir(_themes):
-            call([git, 
-                  'clone', 
-                  'git://github.com/Pylons/pylons_sphinx_theme.git',
-                   '_themes'])
-        else:
-            os.chdir(_themes)
-            call([git, 'checkout', 'master'])
-            call([git, 'pull'])
-            os.chdir(cwd)
-
-        sys.path.append(os.path.abspath('_themes'))
-
-        parent = os.path.dirname(os.path.dirname(__file__))
-        sys.path.append(os.path.abspath(parent))
-        os.chdir(parent)
-
-    html_theme_path = ['_themes']
-    html_theme = 'pylons'
-    html_theme_options = {github_url:'https://github.com/Pylons/yourprojname'}
-
-Then cause the resulting ``_themes`` directory to be ignored in your version
-control system.
-
-This will allow you to build the project utilizing the theme, and when
-updates are made to the theme the changes to the theme will be pulled
-automatically when your docs are rebuilt.
+<http://www.sphinx-doc.org/>`_ using either the `Pylons or Pyramid Sphinx Theme
+<https://github.com/Pylons/pylons-sphinx-themes>`_ for consistency.
 
 PDF output
 ~~~~~~~~~~
@@ -196,6 +150,18 @@ that is close to what is required by the project (subject to change)::
          bar,
          baz,
          )
+
+  It may look unusual, but it has advantages:
+
+  - It allows one to swap out the higher-level package ``foo`` for something else
+    that provides the similar API. An example would be swapping out one database
+    for another (e.g., graduating from SQLite to PostgreSQL).
+
+  - Looks more neat in cases where a large number of objects get imported from
+    that package.
+
+  - Adding or removing imported objects from the package is quicker and results
+    in simpler diffs.
 
 * Import Order
   
