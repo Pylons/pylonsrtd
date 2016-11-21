@@ -73,3 +73,10 @@ add-ons.
   - Maintained by:  Chris McDonough
 
   - Version Control: https://github.com/Pylons/waitress
+
+* `Hupper </projects/hupper/en/latest/>`_, a process monitor / reloader for
+  developers that can watch files for changes and restart the process.
+
+  - Maintained by:  Michael Merickel
+
+  - Version Control: https://github.com/Pylons/hupper
