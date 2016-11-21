@@ -7,15 +7,14 @@ Along with the "100% test coverage, 100% documentation" requirements of all
 packages that wish to be part of the Pylons Project, there are some more
 specific guidelines for creating add-ons and "development environments" for
 Pyramid. If you would like your add-on to be considered for inclusion into
-the :ref:`pyramid-add-ons` or :ref:`sample_pyramid_dev_env` sections of
-the Pylons Project web site, you should attempt to adhere to these guidelines.
+the `Extending Pyramid <https://trypyramid.com/resources-extending-pyramid.html>`_ section of the Pyramid web site, you should attempt to adhere to these guidelines.
 
 An "add-on" is a package which relies on Pyramid itself.  If your add-on does
 not rely on Pyramid, it's not an add-on (just a library), and it will not be
-listed on the add-ons page.
+listed on the Extending Pyramid page.
 
 "Development environments" are packages which use Pyramid as a core, but offer
-alternate services and scaffolding.  Each development environment presents a
+alternative services and scaffolding.  Each development environment presents a
 set of opinions and a "personality" to its users.  Although users of a
 development environment can still use all of the services offered by the
 Pyramid core, they are usually guided to a more focused set of opinions
@@ -27,9 +26,8 @@ development environment.
 
 Contributing Add-ons
 --------------------
-Pyramid provides a repository that allows everyone to share add-ons.
 
-Please refer to the `community docs <https://github.com/pyramid-collective/pyramid-collective.github.com>`_.
+Add-ons may be created and shared wherever you like. Officially supported add-ons must by under the Pylons Project under its GitHub organization account. Contact any of the Pylons Project core developers to request your project become an officially supported add-on.
 
 Making Good Add-Ons
 -------------------
