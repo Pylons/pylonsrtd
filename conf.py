@@ -177,6 +177,8 @@ html_use_smartypants = False
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'pylonsrtd'
 
+# Suppress warnings for external images
+suppress_warnings = ['image.nonlocal_uri']
 
 # Options for LaTeX output
 # ------------------------

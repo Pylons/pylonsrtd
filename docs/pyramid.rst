@@ -14,13 +14,11 @@ speed right away:
 * To see a minimal Pyramid web application, check out :ref:`Creating Your First
   Pyramid Application <pyramid:firstapp_chapter>`.
 
-* `Pyramid Frequently Asked Questions <http://www.pylonsproject.org/projects/pyramid/faq>`_.
-
 * To get a detailed experience of creating a Pyramid web application, try the
   :ref:`Quick Tutorial for Pyramid <pyramid:quick_tutorial>`.
 
 * Like learning by example? Check out to the official :ref:`Pyramid Tutorials
-  <pyramid:tutorials>` as well as the community-contributed :ref:`Pyramid
+  <pyramid:html_tutorials>` as well as the community-contributed :ref:`Pyramid
   Tutorials <tutorials:pyramid-tutorials>` and :ref:`Pyramid Cookbook Recipes
   <cookbook:pyramid-cookbook>`.
 
@@ -30,26 +28,26 @@ speed right away:
 Main Documentation
 ------------------
 
-Stable branch : version 1.7 (latest)
+Stable branch : version 1.8 (latest)
 ++++++++++++++++++++++++++++++++++++
 
 * :ref:`Pyramid latest documentation <pyramid:index>` (`latest PDF
   <http://media.readthedocs.org/pdf/pyramid/latest/pyramid.pdf>`_)
   (`latest Epub <http://media.readthedocs.org/epub/pyramid/latest/pyramid.epub>`_)
-  - narrative and API documentation for Pyramid's latest version, 1.7, the
+  - narrative and API documentation for Pyramid's latest version, 1.8, the
   current stable release.
 
-.. Pre-release branch : version 1.8
+.. Pre-release branch : version 1.9
 .. ++++++++++++++++++++++++++++++++
 ..
-.. * `Pyramid documentation 1.8
-..   <http://docs.pylonsproject.org/projects/pyramid/en/1.8-branch/>`_ (`1.8
-..   PDF <http://media.readthedocs.org/pdf/pyramid/1.8-branch/pyramid.pdf>`_)
-..   (`1.8 Epub <http://media.readthedocs.org/epub/pyramid/1.8-branch/pyramid.epub>`_)
-..   - narrative and API documentation for Pyramid's pre-release version, 1.8,
+.. * `Pyramid documentation 1.9
+..   <http://docs.pylonsproject.org/projects/pyramid/en/1.9-branch/>`_ (`1.9
+..   PDF <http://media.readthedocs.org/pdf/pyramid/1.9-branch/pyramid.pdf>`_)
+..   (`1.9 Epub <http://media.readthedocs.org/epub/pyramid/1.9-branch/pyramid.epub>`_)
+..   - narrative and API documentation for Pyramid's pre-release version, 1.9,
 ..   in dev, alpha, or beta status.
 
-Development branch : upcoming 1.8 (master)
+Development branch : upcoming 1.9 (master)
 ++++++++++++++++++++++++++++++++++++++++++
 
 * `Pyramid development documentation
@@ -75,6 +73,12 @@ Tutorials and Cookbook Recipes
 
 Previous versions
 +++++++++++++++++
+* `Pyramid documentation 1.7
+  <http://docs.pylonsproject.org/projects/pyramid/en/1.7-branch/>`_ (`1.7 PDF
+  <http://media.readthedocs.org/pdf/pyramid/1.7-branch/pyramid.pdf>`_) (`1.7
+  Epub <http://media.readthedocs.org/epub/pyramid/1.7-branch/pyramid.epub>`_) -
+  narrative and API documentation for Pyramid's 1.7 version.
+
 * `Pyramid documentation 1.6
   <http://docs.pylonsproject.org/projects/pyramid/en/1.6-branch/>`_ (`1.6 PDF
   <http://media.readthedocs.org/pdf/pyramid/1.6-branch/pyramid.pdf>`_) (`1.6
