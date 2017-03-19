@@ -56,7 +56,7 @@ for existing applications.
 
    faq/pylonsproject
 
-* `Pyramid Frequently Asked Questions <http://www.pylonsproject.org/projects/pyramid/faq>`_
+* See `Pyramid <https://trypyramid.com/>`_.
 
 Podcasts
 --------
