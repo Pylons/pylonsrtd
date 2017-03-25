@@ -28,17 +28,7 @@ Print use.
 Pyramid Logo
 ------------
 
-Online and screen use.
-
-* :download:`PNG Pyramid logo for light background <logos/pyramid-positive.png>`
-* :download:`PNG Pyramid logo for dark background <logos/pyramid-negative.png>`
-* :download:`SVG Pyramid logo for light background <logos/pyramid-positive.svg>`
-* :download:`SVG Pyramid logo for dark background <logos/pyramid-negative.svg>`
-
-Print use.
-
-* :download:`EPS Pyramid logo for light background <logos/pyramid-positive.eps>`
-* :download:`EPS Pyramid logo for dark background <logos/pyramid-negative.eps>`
+See `Artwork under Media on TryPyramid.com <https://trypyramid.com/media-artwork.html>`_.
 
 
 Usage guidelines
