@@ -9,20 +9,10 @@ please link to http://pylonsproject.org/ as the attribution when using them
 as an hyperlink or The Pylons Project when using as text.
 
 
-Pylons logo
------------
+Pylons Project logo
+-------------------
 
-Online and screen use.
-
-* :download:`PNG Pylons logo for light background <logos/pylons-positive.png>`
-* :download:`PNG Pylons logo for dark background <logos/pylons-negative.png>`
-* :download:`SVG Pylons logo for light background <logos/pylons-positive.svg>`
-* :download:`SVG Pylons logo for dark background <logos/pylons-negative.svg>`
-
-Print use.
-
-* :download:`EPS Pylons logo for light background <logos/pylons-positive.eps>`
-* :download:`EPS Pylons logo for dark background <logos/pylons-negative.eps>`
+See `Artwork under About on PylonsProject.org <http://pylonsproject.org/about-artwork.html>`_.
 
 
 Pyramid Logo
