@@ -85,19 +85,6 @@ made with our tools, we provide logos, badges, and desktop wallpapers.
     promote/badges
     promote/desktops
 
-Contributing
-------------
-
-The Pylons Project welcomes contributors.  Please read the following
-documentation about how the Pylons Project functions, coding styles expected
-for contributions, and the community standards we expect everyone to abide
-by.
-
-.. toctree::
-   :maxdepth: 1
-
-   community/testing
-
 Denials
 -------
 
