@@ -9,17 +9,6 @@ http://pylonsproject.org/
 
 This web page's only purpose is to provide an organization and canonical URL on Read the Docs for documentation of each project under the Pylons Project. Previously it was used for marketing purposes as well, but all that content now resides at the appropriate website for the organization or project.
 
-Promote
--------
-
-To promote the Pylons Project and its related technologies, or your own work
-made with our tools, we provide logos, badges, and desktop wallpapers.
-
-.. toctree::
-    :maxdepth: 1
-
-    promote/logos
-
 .. add glossary, foreword, and latexindex in a hidden toc to avoid warnings
 
 .. toctree::
