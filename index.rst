@@ -1,36 +1,14 @@
 The Pylons Project
 ==================
 
-The Pylons Project maintains the Pyramid web framework as well as additional
-packages intended for use with Pyramid.
+The Pylons Project develops a collection of related web development technologies.
 
-Pylons Project Documentation
-----------------------------
+Visit our organization website for information about projects under the Pylons Project.
 
-The following are documentation of projects under the Pylons Project.
+http://pylonsproject.org/
 
-:ref:`Pyramid Documentation <pyramid-documentation>`
-    Includes the official narrative documentation, API, and tutorials, as well
-    as links to unofficial or community contributions to cookbook recipes, and
-    sample Pyramid applications.
+This web page's only purpose is to provide an organization and canonical URL on Read the Docs for documentation of each project under the Pylons Project. Previously it was used for marketing purposes as well, but all that content now resides at the appropriate website for the organization or project.
 
-`Extending Pyramid <https://trypyramid.com/resources-extending-pyramid.html>`_
-    A filterable list official add-ons (supported by the Pylons Project),
-    popular add-ons from the community, and other web-related packages.
-
-:ref:`Pylons (the web framework) Documentation <the-pylons-project>`
-    Documentation of Pylons (the web framework).
-
-For the most current list of all repositories and projects under the Pylons
-Project, visit the `Pylons Project organization page on GitHub
-<https://github.com/Pylons/>`_.
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   docs/pyramid
-   docs/pylons
 
 .. _support-desc:
 
