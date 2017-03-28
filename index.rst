@@ -85,16 +85,6 @@ made with our tools, we provide logos, badges, and desktop wallpapers.
     promote/badges
     promote/desktops
 
-Denials
--------
-
-Don't worry, none of these are actually true. We swear!
-
-.. toctree::
-    :maxdepth: 1
-    
-    denials/pyramid
-
 .. add glossary, foreword, and latexindex in a hidden toc to avoid warnings
 
 .. toctree::
