@@ -17,20 +17,6 @@ Support
 
 See the Pylons Project web page, `Get Support <http://pylonsproject.org/community-support.html>`_.
 
-FAQ
----
-
-For Pylons users coming from Pylons 1 or repoze.bfg, the change to a new core
-package might raise some questions regarding how to proceed and what it means
-for existing applications.
-
-.. toctree::
-   :maxdepth: 1
-
-   faq/pylonsproject
-
-* See `Pyramid <https://trypyramid.com/>`_.
-
 Podcasts
 --------
 
