@@ -97,7 +97,6 @@ by.
    :maxdepth: 1
 
    community/testing
-   community/featuresbugs
 
 Denials
 -------
