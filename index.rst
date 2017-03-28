@@ -19,8 +19,6 @@ made with our tools, we provide logos, badges, and desktop wallpapers.
     :maxdepth: 1
 
     promote/logos
-    promote/badges
-    promote/desktops
 
 .. add glossary, foreword, and latexindex in a hidden toc to avoid warnings
 
