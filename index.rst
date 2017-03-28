@@ -98,7 +98,6 @@ by.
 
    community/conduct
    community/contributing
-   community/codestyle
    community/testing
    community/featuresbugs
 
