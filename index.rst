@@ -18,10 +18,6 @@ The following are documentation of projects under the Pylons Project.
     A filterable list official add-ons (supported by the Pylons Project),
     popular add-ons from the community, and other web-related packages.
 
-:ref:`Pylons Project Library Package Documentation <pylons-project-library-package-documentation>`
-    A list of packages under the Pylons Project that are useful outside
-    of Pyramid.
-
 :ref:`Pylons (the web framework) Documentation <the-pylons-project>`
     Documentation of Pylons (the web framework).
 
@@ -35,7 +31,6 @@ Project, visit the `Pylons Project organization page on GitHub
 
    docs/pyramid
    docs/pylons
-   docs/libraries
 
 .. _support-desc:
 
