@@ -96,7 +96,6 @@ by.
 .. toctree::
    :maxdepth: 1
 
-   community/contributing
    community/testing
    community/featuresbugs
 
