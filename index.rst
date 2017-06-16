@@ -5,7 +5,7 @@ The Pylons Project develops a collection of related web development technologies
 
 Visit our websites for information about projects under the Pylons Project as well as the organization itself.
 
-* http://pylonsproject.org/ for the Pylons Project
+* https://pylonsproject.org/ for the Pylons Project
 * https://trypyramid.com/ for Pyramid, the web framework
 * http://webob.org/ for WebOb
 * http://docs.pylonsproject.org/projects/pylons-webframework/en/latest/ for Pylons, the web framework
